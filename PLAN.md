@@ -13,13 +13,13 @@ Publish a complete, source-grounded archive of Bujać! as a distinctive Polish c
 - [x] recover every Wayback capture and public episode record        @agent
 - [x] build and verify the framework-free site with automated checks  @agent
 - [x] complete independent visual critique and record `critic-notes.md` @agent
-- [x] publish source from a private GitHub repository                   @agent
-- [ ] verify a live public deployment                                  @agent BLOCKED: GitHub Pages is unavailable for private repos on this account plan
+- [x] publish source from the public GitHub repository                  @agent
+- [x] verify the live GitHub Pages deployment                          @agent
 
 ### Current release notes
 - Browser QA, desktop/mobile screenshots, functional checks, and axe accessibility scan are complete.
-- The source repository is private at `https://github.com/itstomekk/bujac-archiwum`.
-- Choose an alternative host (or upgrade GitHub) before claiming a live release.
+- The source repository is public at `https://github.com/itstomekk/bujac-archiwum`.
+- The site is live at `https://itstomekk.github.io/bujac-archiwum/` over HTTPS, using the GitHub Actions Pages workflow.
 
 ## Phase 2 — Framework migration   (NEXT)
 - [ ] choose Astro or Jekyll using the shipped content model           @tomek

@@ -27,8 +27,12 @@ python scripts/audit.py
 
 ## Repository and deployment
 
-The source repository is private:
+The source repository is public:
 
 `https://github.com/itstomekk/bujac-archiwum`
 
-A public deployment is not live yet. GitHub Pages rejected the private repository because the current account plan does not support Pages for private repositories. Do not make the source repository public as a workaround.
+The live site is deployed with GitHub Pages:
+
+`https://itstomekk.github.io/bujac-archiwum/`
+
+Pages uses the GitHub Actions workflow with HTTPS enforced.

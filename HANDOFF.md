@@ -2,13 +2,13 @@
 
 **Updated:** 2026-09-16
 **Local path:** `C:\Users\Lenovo\Documents\Claude\Projects\bujac-archiwum`
-**Git:** local repository on `main`; source is pushed to the private `origin` remote.
+**Git:** local repository on `main`; source is pushed to the public `origin` remote.
 **Remote:** `https://github.com/itstomekk/bujac-archiwum`
-**Live URL:** not deployed; GitHub Pages is blocked by the account plan for private repositories.
+**Live URL:** `https://itstomekk.github.io/bujac-archiwum/` (GitHub Pages, HTTPS enforced)
 
 ## Goal and approved direction
 
-Publish a framework-free first release, then migrate later. The approved visual direction is Polish underground: xerox, samizdat, punk zine, brutalist typography. Repository must remain private. Do not ask design questions before finishing this first release.
+Publish a framework-free first release, then migrate later. The approved visual direction is Polish underground: xerox, samizdat, punk zine, brutalist typography. The source repository is public by the owner's instruction on 2026-09-16; keep all secrets and private operational data out of it.
 
 ## Current implementation
 
@@ -50,7 +50,7 @@ Browser QA completed on the local server at desktop and mobile widths:
 - axe 4.12.1 reports **0 WCAG 2A/2AA violations** (one contrast check remains incomplete because the design uses textured gradients/pseudo-elements).
 - Screenshots are saved at `docs/design/screenshots/desktop.png` and `docs/design/screenshots/mobile.png`.
 
-The source repository is private and pushed to GitHub. A GitHub Pages workflow was attempted, but the account returned: `Your current plan does not support GitHub Pages for this repository.` No public deployment exists yet.
+The source repository is public and pushed to GitHub. Pages is configured for the `workflow` build type, HTTPS is enforced, and the deployed site is live at `https://itstomekk.github.io/bujac-archiwum/`. The latest `Deploy GitHub Pages` workflow completed successfully.
 
 ## Honest content decisions already encoded
 
@@ -76,7 +76,7 @@ node --test tests/*.test.mjs
 python scripts/audit.py
 ```
 
-Expected: many untracked site files, 7 passing tests, audit passed.
+Expected: clean working tree after the documentation sync, 7 passing tests, audit passed.
 
 ### 2. Browser QA and screenshots — COMPLETE
 
@@ -90,23 +90,22 @@ The critic used only the approved brief and the desktop/mobile screenshots. Thre
 
 The verified local release, screenshots, critique, accessibility fix, and project-record updates are committed as `070f788` and pushed to `origin/main`. No temporary browser state or local server logs were included.
 
-### 5. Private GitHub repository — COMPLETE
+### 5. Public GitHub repository — COMPLETE
 
-The private repository exists and the current committed source is pushed to:
+The public repository exists and the current committed source is pushed to:
 
 `https://github.com/itstomekk/bujac-archiwum`
 
-### 6. Public deployment — BLOCKED
+### 6. GitHub Pages deployment — COMPLETE
 
-The deployment workflow is `.github/workflows/pages.yml`. GitHub Actions verification passed, but Pages deployment failed because the account plan does not support Pages for private repositories. Do not make the source repository public or silently create a public mirror. Choose an alternative host or upgrade the GitHub plan before continuing.
+Pages is configured with `build_type: workflow`, source branch `main`, path `/`, and HTTPS enforcement. The latest `Deploy GitHub Pages` workflow passed, and the live page returned HTTP 200 with 18 rendered cards.
 
-### 7. Close project records only after deployment
+### 7. Close project records after deployment — COMPLETE
 
-- Update `PLAN.md` before this file.
-- Add the live and repository URLs to `README.md` and this handoff.
-- Add this project to `C:\Users\Lenovo\.agents\PORTFOLIO.md` and `PROJECT-ROUTING.md` only after the remote exists.
-- Run `python C:\Users\Lenovo\.agents\refresh.py`.
-- Commit and push the final documentation updates.
+- `PLAN.md`, `README.md`, `HANDOFF.md`, and `ORGANIZATION-LOG.md` contain the live and repository URLs.
+- The project is listed in `C:\Users\Lenovo\.agents\PORTFOLIO.md` and `PROJECT-ROUTING.md`.
+- `python C:\Users\Lenovo\.agents\refresh.py` was run after the map update.
+- Final documentation updates remain to be committed and pushed.
 
 ### 8. Report task usage after the site is live
 
@@ -125,4 +124,4 @@ Do not claim exact token totals unless the runtime/provider exposes exact usage.
 - Keep audio on public original hosts; do not add large audio files to Git.
 - No trackers, cookies, external fonts, or framework runtime.
 - Do not publish secrets or local temporary paths.
-- Do not make the source repository public.
+- The source repository is public by the owner's instruction; never publish secrets, cookies, credentials, or private operational data.
