@@ -86,17 +86,9 @@ The local server was tested with `agent-browser` at desktop and 360px mobile wid
 
 The critic used only the approved brief and the desktop/mobile screenshots. Three high-impact issues were recorded in `docs/design/critic-notes.md`: mobile intrinsic-width overflow, long display-heading overflow, and a non-focusable horizontal broadcast strip. The fixes were applied and all browser checks were rerun.
 
-### 4. Commit the verified local release — PENDING
+### 4. Commit the verified local release — COMPLETE
 
-Before committing:
-
-```bash
-git diff --check
-node --test tests/*.test.mjs
-python scripts/audit.py
-```
-
-Then commit the accessibility fix, screenshots, and project-record updates. Do not include temporary browser state or local server logs.
+The verified local release, screenshots, critique, accessibility fix, and project-record updates are committed as `070f788` and pushed to `origin/main`. No temporary browser state or local server logs were included.
 
 ### 5. Private GitHub repository — COMPLETE
 
