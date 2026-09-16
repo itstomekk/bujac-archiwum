@@ -149,6 +149,17 @@ Done requires all of these:
 - Run `python C:\Users\Lenovo\.agents\refresh.py`.
 - Commit and push the final documentation updates.
 
+### 8. Report task usage after the site is live
+
+In the final delivery, report:
+
+- the number of model inferences for the complete task, including the two research subagents;
+- approximate total input tokens sent;
+- approximate total output tokens received;
+- whether the figures are exact provider usage or estimates reconstructed from session/subagent logs.
+
+Do not claim exact token totals unless the runtime/provider exposes exact usage. If only logs are available, state the counting method and label the result as an estimate.
+
 ## Constraints
 
 - Preserve source provenance and uncertainty.
