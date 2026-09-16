@@ -1,6 +1,6 @@
-# Bujać! Archiwum
+# Bujać! — odcinki i rozmowy
 
-A framework-free public archive and listening page for the Polish Bitcoin podcast **Bujać!**.
+A framework-free public listening page for the Polish Bitcoin podcast **Bujać!**.
 
 ## Local preview
 
@@ -20,7 +20,9 @@ python scripts/audit.py
 ## Structure
 
 - `data/episodes.json` - normalized episode catalog
-- `data/wayback-manifest.json` - archived capture ledger
+- `data/wayback-manifest.json` - capture ledger and provenance
+- `content/po-co-to-jest.md` - full transferred source text
+- `po-co-to-jest.html` - local full-text page
 - `research/` - source inventory and recovery notes
 - `js/archive.mjs` - testable filtering and source selection
 - `index.html`, `styles.css`, `app.js` - production site

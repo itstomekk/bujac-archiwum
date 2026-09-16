@@ -68,7 +68,7 @@ function playerMarkup(source, episode) {
   }
   return `
     <div class="player-consent" data-player-consent>
-      <p>Player załaduje się dopiero po kliknięciu. Wtedy ${source.type === 'spotify' ? 'Spotify' : source.type === 'youtube' ? 'YouTube' : 'zewnętrzne archiwum'} może otrzymać Twój adres IP.</p>
+      <p>Player załaduje się dopiero po kliknięciu. Wtedy ${source.type === 'spotify' ? 'Spotify' : source.type === 'youtube' ? 'YouTube' : 'zewnętrzny serwer'} może otrzymać Twój adres IP.</p>
       <button class="button button-primary" type="button" data-load-player="${escapeHtml(episode.id)}">Załaduj player</button>
     </div>
   `;
@@ -149,18 +149,29 @@ document.querySelector('[data-open-latest]').addEventListener('click', () => {
   if (latest) openEpisode(latest);
 });
 
+async function loadEpisodes() {
+  const url = new URL('data/episodes.json', document.baseURI);
+  url.searchParams.set('v', '1');
+  const response = await fetch(url, { cache: 'no-store' });
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.json();
+}
+
 async function init() {
   try {
-    const response = await fetch('./data/episodes.json');
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.episodes = await response.json();
+    state.episodes = await loadEpisodes();
     renderEpisodes();
     const deepLinked = state.episodes.find((episode) => `#${episode.id}` === location.hash);
     if (deepLinked) openEpisode(deepLinked);
   } catch (error) {
     grid.setAttribute('aria-busy', 'false');
-    grid.innerHTML = `<article class="no-script"><h3>Archiwum chwilowo nie wstało.</h3><p>Otwórz <a href="https://open.spotify.com/show/7JKCgH1nxriBsh6y9JlfOY">kanał na Spotify</a> albo spróbuj ponownie.</p></article>`;
-    count.textContent = 'błąd katalogu';
+    grid.innerHTML = `<article class="no-script"><h3>Nie udało się wczytać odcinków.</h3><p>Ta strona musi działać przez HTTPS lub lokalny serwer, nie jako plik <code>file://</code>. <button class="text-link retry-load" type="button" data-retry-load>Spróbuj ponownie ↻</button></p></article>`;
+    count.textContent = 'błąd ładowania';
+    grid.querySelector('[data-retry-load]')?.addEventListener('click', () => {
+      grid.innerHTML = '';
+      count.textContent = 'Ładowanie katalogu…';
+      init();
+    });
     console.error(error);
   }
 }

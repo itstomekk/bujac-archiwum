@@ -1,4 +1,4 @@
-# PLAN — Bujać! Archiwum
+# PLAN — Bujać! / odcinki i rozmowy
 
 **Program:** personal-life
 **Status:** active

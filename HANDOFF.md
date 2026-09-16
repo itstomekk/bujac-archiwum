@@ -1,4 +1,4 @@
-# HANDOFF — Bujać! Archiwum
+# HANDOFF — Bujać! / odcinki i rozmowy
 
 **Updated:** 2026-09-16
 **Local path:** `C:\Users\Lenovo\Documents\Claude\Projects\bujac-archiwum`
@@ -13,6 +13,7 @@ Publish a framework-free first release, then migrate later. The approved visual 
 ## Current implementation
 
 - Static site: `index.html`, `styles.css`, `app.js`, `404.html`.
+- Full transferred source text: `content/po-co-to-jest.md` and `po-co-to-jest.html`.
 - Testable behavior: `js/archive.mjs`.
 - Catalog: `data/episodes.json` with 18 records:
   - Sezon 1: E01–E05
@@ -33,7 +34,7 @@ Run from the project root:
 node --test tests/*.test.mjs
 ```
 
-Last result: **7/7 passed, 0 failed**.
+Last result: **8/8 passed, 0 failed**.
 
 ```bash
 python scripts/audit.py
@@ -48,6 +49,8 @@ Browser QA completed on the local server at desktop and mobile widths:
 - Player iframe count is 0 before consent and 1 after “Załaduj player”.
 - Mobile viewport 360px has `scrollWidth === 360`; keyboard focus is visible.
 - axe 4.12.1 reports **0 WCAG 2A/2AA violations** (one contrast check remains incomplete because the design uses textured gradients/pseudo-elements).
+- The page uses the logo orange `#f7941e`, rough paper/halftone treatment, shorter copy, and three recovered source graphics in the trace section.
+- The full “Po Co To Jest?” text is available locally at `po-co-to-jest.html`; the old external reading prompt is gone.
 - Screenshots are saved at `docs/design/screenshots/desktop.png` and `docs/design/screenshots/mobile.png`.
 
 The source repository is public and pushed to GitHub. Pages is configured for the `workflow` build type, HTTPS is enforced, and the deployed site is live at `https://itstomekk.github.io/bujac-archiwum/`. The latest `Deploy GitHub Pages` workflow completed successfully.

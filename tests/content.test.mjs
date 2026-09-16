@@ -47,3 +47,12 @@ test('Wayback manifest records every successful domain capture', async () => {
     assert.ok(capture.waybackUrl.startsWith('https://web.archive.org/web/'));
   }
 });
+
+test('transferred source text is local and the old external prompt is gone', async () => {
+  const sourceText = await readFile(new URL('content/po-co-to-jest.md', root), 'utf8');
+  const sourcePage = await readFile(new URL('po-co-to-jest.html', root), 'utf8');
+  const index = await readFile(new URL('index.html', root), 'utf8');
+  assert.match(sourceText, /Internet należy do nas\./);
+  assert.match(sourcePage, /Internet należy do nas\./);
+  assert.doesNotMatch(index, /Czytaj oryginał w Wayback Machine/);
+});

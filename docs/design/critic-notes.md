@@ -6,7 +6,7 @@
 - `docs/design/screenshots/desktop.png`
 - `docs/design/screenshots/mobile.png`
 
-The critique was limited to the approved brief and the two rendered screenshots. The page is intentionally treated as a Polish samizdat archive, not as a generic podcast landing page.
+The critique was limited to the approved brief and the two rendered screenshots. The page is intentionally treated as a Polish samizdat listening page for episodes and conversations, not as a generic podcast landing page.
 
 ## Three biggest structural problems
 
@@ -27,3 +27,11 @@ The critique was limited to the approved brief and the two rendered screenshots.
 - Axe Core reports 0 violations, 1 incomplete manual-review category (color contrast), and 26 passes.
 - Keyboard focus is visible with a 4px signal-orange outline.
 - Existing filter, accent-insensitive search, latest-episode, dialog-close, and consent-gated embed flows remain functional.
+
+## Current visual/content pass
+
+- Replaced the UI's archive wording with concise episode, conversation, and trace labels.
+- Tuned the accent to the logo's orange (`#f7941e`), darkened the paper, and added a restrained halftone field for a rougher PRL print feel.
+- Reduced hero, manifest, infrastructure, and card heights so the page carries less explanatory copy and reaches the episodes sooner.
+- Added the three recovered source graphics to the trace section and moved the full “Po Co To Jest?” text into `content/po-co-to-jest.md` plus the local `po-co-to-jest.html` page.
+- Removed the visible “Czytaj oryginał w Wayback Machine” prompt; the external capture ledger remains only as provenance data.
