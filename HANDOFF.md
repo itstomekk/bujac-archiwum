@@ -88,7 +88,7 @@ The critic used only the approved brief and the desktop/mobile screenshots. Thre
 
 ### 4. Commit the verified local release — COMPLETE
 
-The verified local release, screenshots, critique, accessibility fix, and project-record updates are committed as `070f788` and pushed to `origin/main`. No temporary browser state or local server logs were included.
+The verified local release, screenshots, critique, accessibility fix, and project-record updates are committed as `070f788` and pushed to `origin/main`. The public deployment documentation update is committed as `abd4cc9` and pushed to `origin/main`. No temporary browser state or local server logs were included.
 
 ### 5. Public GitHub repository — COMPLETE
 
