@@ -10,8 +10,9 @@
 Publish a complete, source-grounded archive of Bujać! as a distinctive Polish counterculture podcast page, while keeping its data portable for a later framework migration.
 
 ## Phase 1 — Recovery and launch   (ACTIVE)
-- [ ] recover every Wayback capture and public episode record        @agent
-- [ ] build and verify the framework-free site                        @agent
+- [x] recover every Wayback capture and public episode record        @agent
+- [x] build and verify the framework-free site with automated checks  @agent
+- [ ] complete browser screenshots and independent visual critique    @agent
 - [ ] publish from a private GitHub repository                         @agent
 - [ ] verify the live GitHub Pages deployment                          @agent
 

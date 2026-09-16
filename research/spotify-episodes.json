@@ -1,0 +1,770 @@
+[
+  {
+    "id": "47rlPi5qpJetXA4OKppARR",
+    "name": "🔶 Bujać! S03E03 z mec. Gracjanem Pietrasem o wolności wypowiedzi, prawach potęgowych i spirali śmierci.",
+    "title": "🔶 Bujać! S03E03 z mec. Gracjanem Pietrasem o wolności wypowiedzi, prawach potęgowych i spirali śmierci.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2026-07-24T09:37:00Z"
+    },
+    "duration": 6668721,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/bb091e9f553fdfaf1e6c059e514fec6c3fa751d2.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1fbe2c371ee28348097c56ba72",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8abe2c371ee28348097c56ba72",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68dbe2c371ee28348097c56ba72",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "0l15IoP2fNf9blNj2oadJW",
+    "name": "🔶 Bujać S03E02 z Maciejem o miłości do pieniądza, intencjach władzy fiducjarnej i dziurce w systemowym baloniku.",
+    "title": "🔶 Bujać S03E02 z Maciejem o miłości do pieniądza, intencjach władzy fiducjarnej i dziurce w systemowym baloniku.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2026-07-17T09:37:00Z"
+    },
+    "duration": 6796041,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/74f825bc2898b04c17642eed6cff560ed842ffbf.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f96062a7c7157fefa5330b6d0",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a96062a7c7157fefa5330b6d0",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68d96062a7c7157fefa5330b6d0",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "5iRYmf6go9yyiAD3TEdluO",
+    "name": "🔶 Bujać! S03E01 z Tomkiem o Karaibach, bitcoinowym crowdfundingu, nadchodzącej edycji BFF.",
+    "title": "🔶 Bujać! S03E01 z Tomkiem o Karaibach, bitcoinowym crowdfundingu, nadchodzącej edycji BFF.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2026-07-10T09:37:00Z"
+    },
+    "duration": 6843141,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/44620d4bdd7148be604d71776d2f41e0daef1377.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1fe0b6c0935c905d7db4bc67af",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8ae0b6c0935c905d7db4bc67af",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68de0b6c0935c905d7db4bc67af",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "2x7A9SkOd7vr5IF2zjCzbm",
+    "name": "🔶 Bujać! E11 z Robertem o hackerach, kryptowaluciarstwie, prawie do odmowy, budowaniu domu i odsieczy Wiedeńskiej.",
+    "title": "🔶 Bujać! E11 z Robertem o hackerach, kryptowaluciarstwie, prawie do odmowy, budowaniu domu i odsieczy Wiedeńskiej.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2026-07-03T09:37:00Z"
+    },
+    "duration": 4826965,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/473e43b1c29deacf9ff4b1a557e32dd7ac83aa72.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67656300005f1fa615bec6e8fcf51294db721e",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab6765630000ba8aa615bec6e8fcf51294db721e",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab6765630000f68da615bec6e8fcf51294db721e",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "7oDmuEgjUapjyPsCde070X",
+    "name": "🔶 Bujać! E10 z Łukaszem. Drylowanie o komedii, wolności i kradzionych pomidorach.",
+    "title": "🔶 Bujać! E10 z Łukaszem. Drylowanie o komedii, wolności i kradzionych pomidorach.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2026-06-26T09:36:00Z"
+    },
+    "duration": 4474261,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/0e6887e88cbcca9567fcc093ec5d0e3d9d82c4bf.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f14f6f31140ffb8e66bcffdbb",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a14f6f31140ffb8e66bcffdbb",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68d14f6f31140ffb8e66bcffdbb",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "52Z0m4lSbPr3QsJJf1gIHE",
+    "name": "🔶 Bujać! E09 z Maciejem o prywatności, oszczędzaniu, i komu ten cały Bitcoin w ogóle jest potrzebny.",
+    "title": "🔶 Bujać! E09 z Maciejem o prywatności, oszczędzaniu, i komu ten cały Bitcoin w ogóle jest potrzebny.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2026-06-19T09:29:00Z"
+    },
+    "duration": 4683072,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/5e5a7fe5fbd3aa53f4abb5353d82b3bb11a21464.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f9d496da010aaa2e27b95638a",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a9d496da010aaa2e27b95638a",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68d9d496da010aaa2e27b95638a",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "1SbdK69gA9lOX06Z1QKnGP",
+    "name": "🔶 Bujać! E08 z Grzegorzem o filozofii P2P",
+    "title": "🔶 Bujać! E08 z Grzegorzem o filozofii P2P",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2025-11-26T16:19:00Z"
+    },
+    "duration": 8859066,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/6e1835e2079cf527c8362407dcb2ce88240a126e.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f1f8000c08bea7433bd1f91b2",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a1f8000c08bea7433bd1f91b2",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68d1f8000c08bea7433bd1f91b2",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "6EEgDLUKoqJqSz0lwC6QTx",
+    "name": "🔶 Bujać! E07 z Ryszardem Zalskim o budowaniu biznesów na sieci Bitcoin",
+    "title": "🔶 Bujać! E07 z Ryszardem Zalskim o budowaniu biznesów na sieci Bitcoin",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2025-11-19T16:19:00Z"
+    },
+    "duration": 2641489,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/45cb53a467871a6cbb6e972625adf430bee115e7.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1facaea0c8b342aa60e309bfa6",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8aacaea0c8b342aa60e309bfa6",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68dacaea0c8b342aa60e309bfa6",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "4Z5Yf8m8IL994Nc0qaWyuX",
+    "name": "🔶 Bujać! E06 z mec. Gracjanem Pietrasem o Proof of Work.",
+    "title": "🔶 Bujać! E06 z mec. Gracjanem Pietrasem o Proof of Work.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2025-11-12T16:18:00Z"
+    },
+    "duration": 4118459,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/7a193f69206cb1f90ac2077e284ec7020881f822.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1fd33fe43fb22911a2c7195615",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8ad33fe43fb22911a2c7195615",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68dd33fe43fb22911a2c7195615",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "0LG9evPsMn2S3A1jnvMGYP",
+    "name": "🔶 Bujać! E05 z Patrykiem (Bitchair) o pracy jako radości.",
+    "title": "🔶 Bujać! E05 z Patrykiem (Bitchair) o pracy jako radości.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2025-10-29T18:16:00Z"
+    },
+    "duration": 695461,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/f887d81381a40fd8c7b84931b2bce1ddc057eb5e.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f99fb7467e4011b6124fa0d16",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a99fb7467e4011b6124fa0d16",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68d99fb7467e4011b6124fa0d16",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "4uXbBzMW5ZcLrfA2qDZry5",
+    "name": "🔶 Bujać! E04 z Jesterem o języku i zimie.",
+    "title": "🔶 Bujać! E04 z Jesterem o języku i zimie.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2025-10-20T23:01:00Z"
+    },
+    "duration": 2537360,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/980b4495d7f7885c0606563c5b73d7e4d812b387.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab67656300005f1f6b903a98de4730b42427dffe",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab6765630000ba8a6b903a98de4730b42427dffe",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-fa.spotifycdn.com/image/ab6765630000f68d6b903a98de4730b42427dffe",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "1yPoddBxKubqA64Cv86U8M",
+    "name": "🔶 Bujać! E03 ze Staszkiem Wołochem o fiducjarnym biznesie i science-fiction.",
+    "title": "🔶 Bujać! E03 ze Staszkiem Wołochem o fiducjarnym biznesie i science-fiction.",
+    "subtitle": "Laissez Faire 🇵🇱⚡",
+    "releaseDate": {
+      "isoString": "2025-10-14T14:33:00Z"
+    },
+    "duration": 1481402,
+    "isExplicit": false,
+    "audioPreview": {
+      "url": "https://p.scdn.co/mp3-preview/e4e4b3e49755b638b2e8de3d6d36b19e5e04df1d.mp3"
+    },
+    "relatedEntityUri": "spotify:show:7JKCgH1nxriBsh6y9JlfOY",
+    "visualIdentity": {
+      "backgroundBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 64,
+        "red": 130
+      },
+      "backgroundTintedBase": {
+        "alpha": 255,
+        "blue": 0,
+        "green": 30,
+        "red": 88
+      },
+      "textBase": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textBrightAccent": {
+        "alpha": 255,
+        "blue": 255,
+        "green": 255,
+        "red": 255
+      },
+      "textSubdued": {
+        "alpha": 255,
+        "blue": 138,
+        "green": 193,
+        "red": 255
+      },
+      "image": [
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f5c3cbdbe30f364854f3d1c4f",
+          "maxHeight": 300,
+          "maxWidth": 300
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a5c3cbdbe30f364854f3d1c4f",
+          "maxHeight": 640,
+          "maxWidth": 640
+        },
+        {
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000f68d5c3cbdbe30f364854f3d1c4f",
+          "maxHeight": 64,
+          "maxWidth": 64
+        }
+      ]
+    }
+  }
+]
