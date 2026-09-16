@@ -25,4 +25,10 @@ python scripts/audit.py
 - `js/archive.mjs` - testable filtering and source selection
 - `index.html`, `styles.css`, `app.js` - production site
 
-The repository is private. The generated GitHub Pages site is intended to be public.
+## Repository and deployment
+
+The source repository is private:
+
+`https://github.com/itstomekk/bujac-archiwum`
+
+A public deployment is not live yet. GitHub Pages rejected the private repository because the current account plan does not support Pages for private repositories. Do not make the source repository public as a workaround.

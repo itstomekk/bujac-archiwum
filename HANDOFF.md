@@ -2,9 +2,9 @@
 
 **Updated:** 2026-09-16
 **Local path:** `C:\Users\Lenovo\Documents\Claude\Projects\bujac-archiwum`
-**Git:** local repository on `main`; one initial documentation commit exists. Site work is not yet committed or pushed.
-**Remote:** not created
-**Live URL:** not deployed
+**Git:** local repository on `main`; source is pushed to the private `origin` remote.
+**Remote:** `https://github.com/itstomekk/bujac-archiwum`
+**Live URL:** not deployed; GitHub Pages is blocked by the account plan for private repositories.
 
 ## Goal and approved direction
 
@@ -41,7 +41,16 @@ python scripts/audit.py
 
 Last result: **AUDIT PASSED**; 18 episode records; required files, HTML landmarks, alt text, local references, and source URLs valid.
 
-A local server returned HTTP 200 for `/`, `styles.css`, `app.js`, both hero assets, `js/archive.mjs`, and `data/episodes.json`.
+Browser QA completed on the local server at desktop and mobile widths:
+
+- 18 cards render; season filters return the expected counts (Sezon 1: 5); accent-insensitive search returns the Łukasz episode.
+- “Włącz najnowszy” opens S03E03; dialog closes with Escape and backdrop click.
+- Player iframe count is 0 before consent and 1 after “Załaduj player”.
+- Mobile viewport 360px has `scrollWidth === 360`; keyboard focus is visible.
+- axe 4.12.1 reports **0 WCAG 2A/2AA violations** (one contrast check remains incomplete because the design uses textured gradients/pseudo-elements).
+- Screenshots are saved at `docs/design/screenshots/desktop.png` and `docs/design/screenshots/mobile.png`.
+
+The source repository is private and pushed to GitHub. A GitHub Pages workflow was attempted, but the account returned: `Your current plan does not support GitHub Pages for this repository.` No public deployment exists yet.
 
 ## Honest content decisions already encoded
 
@@ -69,39 +78,15 @@ python scripts/audit.py
 
 Expected: many untracked site files, 7 passing tests, audit passed.
 
-### 2. Complete browser QA and screenshots
+### 2. Browser QA and screenshots — COMPLETE
 
-Start a local server:
+The local server was tested with `agent-browser` at desktop and 360px mobile widths. All required functional checks and the axe WCAG scan passed; the two screenshots are present under `docs/design/screenshots/`.
 
-```bash
-python -m http.server 4173 --bind 127.0.0.1
-```
+### 3. Independent visual critique — COMPLETE
 
-Then inspect `http://127.0.0.1:4173` in a real browser at desktop and mobile widths. The previous `agent-browser` command timed out during screenshot automation, although the server log proved that the page and all required assets loaded. Diagnose with `agent-browser doctor --offline --quick` before retrying.
+The critic used only the approved brief and the desktop/mobile screenshots. Three high-impact issues were recorded in `docs/design/critic-notes.md`: mobile intrinsic-width overflow, long display-heading overflow, and a non-focusable horizontal broadcast strip. The fixes were applied and all browser checks were rerun.
 
-Required checks:
-
-- 18 cards render.
-- season filters and accent-insensitive search work.
-- “Włącz najnowszy” opens S03E03.
-- dialog closes by button, backdrop, and Escape.
-- Spotify and YouTube embeds load only after consent click.
-- mobile layout has no horizontal overflow at 360px.
-- keyboard focus is visible.
-- run `agent-browser a11y http://127.0.0.1:4173 --tags wcag2a,wcag2aa` if the browser starts.
-
-Save screenshots as:
-
-- `docs/design/screenshots/desktop.png`
-- `docs/design/screenshots/mobile.png`
-
-### 3. Run one independent visual critique
-
-Give a fresh critic only the two screenshots and `docs/design/brief.md`. Ask for the three biggest structural/design problems. Apply only high-impact fixes, then rerun tests, audit, screenshots, and accessibility. Avoid adding generic decoration.
-
-Write the final critique and applied fixes to `docs/design/critic-notes.md`.
-
-### 4. Commit the verified local release
+### 4. Commit the verified local release — PENDING
 
 Before committing:
 
@@ -111,35 +96,17 @@ node --test tests/*.test.mjs
 python scripts/audit.py
 ```
 
-Then commit all project files. Do not include temporary browser state or local server logs.
+Then commit the accessibility fix, screenshots, and project-record updates. Do not include temporary browser state or local server logs.
 
-### 5. Create the private GitHub repository and push
+### 5. Private GitHub repository — COMPLETE
 
-GitHub CLI is authenticated as `itstomekk` with `repo` and `workflow` scopes.
+The private repository exists and the current committed source is pushed to:
 
-```bash
-gh repo create bujac-archiwum --private --description "Niezależne archiwum podcastu Bujać!" --source . --push
-```
+`https://github.com/itstomekk/bujac-archiwum`
 
-Read back the exact remote state:
+### 6. Public deployment — BLOCKED
 
-```bash
-gh repo view itstomekk/bujac-archiwum --json nameWithOwner,visibility,url,defaultBranchRef
-```
-
-Do not make the repository public as a workaround.
-
-### 6. Enable and verify GitHub Pages
-
-The deployment workflow is `.github/workflows/pages.yml`. Enable Pages with GitHub Actions if it is not auto-enabled, then inspect workflow runs. GitHub may reject Pages from a private repository if this account plan does not support it. If that happens, record the exact API/workflow error and stop for a human decision. Do not silently create a public mirror.
-
-Done requires all of these:
-
-- repository visibility reads `PRIVATE`;
-- Verify workflow passes;
-- Pages workflow passes;
-- the reported Pages URL returns HTTP 200 over HTTPS;
-- the deployed page renders 18 cards.
+The deployment workflow is `.github/workflows/pages.yml`. GitHub Actions verification passed, but Pages deployment failed because the account plan does not support Pages for private repositories. Do not make the source repository public or silently create a public mirror. Choose an alternative host or upgrade the GitHub plan before continuing.
 
 ### 7. Close project records only after deployment
 
