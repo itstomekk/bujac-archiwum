@@ -56,3 +56,44 @@ test('transferred source text is local and the old external prompt is gone', asy
   assert.match(sourcePage, /Internet należy do nas\./);
   assert.doesNotMatch(index, /Czytaj oryginał w Wayback Machine/);
 });
+
+test('full descriptions are local, sourced, and synchronized', async () => {
+  const episodes = await loadJson('data/episodes.json');
+  const research = await loadJson('research/full-descriptions.json');
+  const byId = new Map(research.map((entry) => [entry.id, entry]));
+  assert.equal(byId.size, episodes.length);
+  assert.equal(episodes.filter((episode) => episode.description).length, 15);
+  for (const episode of episodes) {
+    const source = byId.get(episode.id);
+    assert.ok(source);
+    assert.equal(episode.description, source.description);
+    assert.equal(episode.descriptionSourceType, source.descriptionSourceType);
+    if (episode.description) assert.ok(episode.description.length >= 400);
+  }
+});
+
+test('Bitcoin support details are visible in the page', async () => {
+  const index = await readFile(new URL('index.html', root), 'utf8');
+  assert.match(index, /bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad/);
+  assert.match(index, /bujac@walletofsatoshi\.com/);
+});
+
+test('every episode has a local generated thumbnail', async () => {
+  const episodes = await loadJson('data/episodes.json');
+  const manifest = await loadJson('research/generated-artwork.json');
+  assert.equal(manifest.length, 18);
+  assert.equal(new Set(manifest.map((entry) => entry.id)).size, 18);
+  for (const episode of episodes) {
+    assert.equal(episode.artwork, `assets/episodes/${episode.id}.png`);
+    const image = await readFile(new URL(episode.artwork, root));
+    assert.deepEqual([...image.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
+    assert.equal(image.readUInt32BE(16), 1024);
+    assert.equal(image.readUInt32BE(20), 1024);
+  }
+});
+
+test('episode players load inline when a dialog opens', async () => {
+  const app = await readFile(new URL('app.js', root), 'utf8');
+  assert.match(app, /data-auto-player/);
+  assert.doesNotMatch(app, /data-load-player/);
+});

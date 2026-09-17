@@ -1,692 +1,146 @@
 [
   {
     "id": "s1-e01",
-    "number": "E01",
-    "series": "sezon-1",
-    "date": "2025-06-25",
-    "title": "Z Saunterem o NOSTR",
-    "guest": "Saunter",
-    "summary": "Premierowy odcinek projektu, nagrany przy okazji BTC Prague. Rozmowa o NOSTR i publikowaniu poza scentralizowanymi platformami.",
-    "topics": [
-      "NOSTR",
-      "BTC Prague",
-      "niezależne media"
-    ],
-    "sources": [
-      {
-        "type": "youtube",
-        "label": "Zwiastun na YouTube",
-        "url": "https://www.youtube.com/watch?v=cNAFnAi0CCE",
-        "playable": true,
-        "note": "Publiczny zwiastun, nie pełny odcinek."
-      },
-      {
-        "type": "nostr",
-        "label": "Pierwotny plik z RSS",
-        "url": "https://gadaj.yana.do/2a0ca96318bbf228660c1de863350170dab9155e2e9c4e79b8be924daea88a1d.mp4",
-        "playable": false,
-        "note": "Wayback nie zachował pliku."
-      },
-      {
-        "type": "wayback",
-        "label": "Archiwalny RSS",
-        "url": "https://web.archive.org/web/20251002091808id_/https://castr.me/npub1adsudqw8jge35ff5g8vc7q6xqugpza3cxmaqm6fgk4uv0nd50gms4hn7pf/rss.xml",
-        "playable": false
-      }
-    ],
     "description": "#PoW time, guys.\n\nPrzedstawiam premierowy odcinek projektu \"Bujać!\".\nZaczynamy rozmową z nostr:nprofile1qyt8wumn8ghj7ct5d3shxtnwdaehgu3wd3skueqpzamhxue69uhkv6tvw3jhytnwdaehgu3wwa5kuegqyrd7qcz6n3e3w2adw536xfajxm24af9kxn5qu79fqy7m0y0cl4djcw84nqz o NOSTR.\n\nJest to też E01/04 relacji z nostr:nprofile1qqsd0f68dvf98gvs9am9dp0lu0f4r7xzu2k89rm9tt448axf5tu6wlgphpy4c . Ale to była petarda!\n#BTCPrague\n\nMateriał powstał dzięki wsparciu:\n\nCryptosteel - producenta analogowego backup'u do Twojego klucza prywatnego. (cryptosteel.com)\n\nBitomat.com - sieci automatów wymiany BTC bez KYC (sprawdź limity!)\n\nnostr:nprofile1qyg8wumn8ghj7vf5xqhxvdm69e5k7qgcwaehxw309a38ytnsw4e8qmr9wfjkccte9e3k7mgqyqe3waa0ygy5ux4pesa94zk4pl5yms4tst5gvqsz73xaz6t83ckvwyg5e9h - I dedicate this work to all of you, Guys! Thanks for inspiration.\n\nnostr:nprofile1qydhwumn8ghj7cm0w4h8gunfv4ejuenfv96x5ctx9e3k7mgpz3mhxue69uhhyetvv9ujuerpd46hxtnfduqzpsrkcrqqkydl2zdt26rtft2vu3c7xgc4lp3lzpjvp256nmdc9674xaehls - Budujemy w domu!\n\nhttps://gadaj.yana.do/2a0ca96318bbf228660c1de863350170dab9155e2e9c4e79b8be924daea88a1d.mp4\n\nEnjoy!",
     "descriptionSourceUrl": "https://web.archive.org/web/20251002091808id_/https://castr.me/npub1adsudqw8jge35ff5g8vc7q6xqugpza3cxmaqm6fgk4uv0nd50gms4hn7pf/rss.xml",
     "descriptionSourceType": "rss",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z zachowanego archiwalnego RSS; HTML usunięty z zachowaniem kolejności akapitów.",
-    "artwork": "assets/episodes/s1-e01.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z zachowanego archiwalnego RSS; HTML usunięty z zachowaniem kolejności akapitów."
   },
   {
     "id": "s1-e02",
-    "number": "E02",
-    "series": "sezon-1",
-    "date": "2025-06-28",
-    "title": "Z Markiem Szabelskim o społeczności Bitcoinerów",
-    "guest": "Marek Szabelski",
-    "summary": "Rozmowa z BTC Prague o społecznościach bitcoinerów w krajach niemieckojęzycznych. Oryginał zapowiadano z angielskimi napisami.",
-    "topics": [
-      "społeczność",
-      "BTC Prague",
-      "kraje niemieckojęzyczne"
-    ],
-    "sources": [
-      {
-        "type": "youtube",
-        "label": "Zwiastun na YouTube",
-        "url": "https://www.youtube.com/watch?v=moKTN7KSjHs",
-        "playable": true,
-        "note": "Publiczny zwiastun, nie pełny odcinek."
-      },
-      {
-        "type": "nostr",
-        "label": "Pierwotny plik z RSS",
-        "url": "https://gadaj.yana.do/5637dbaaf1c02b71738b5de72a41ac3cd66fbfb1521d7dd472525ae547a6feab.mp4",
-        "playable": false,
-        "note": "Wayback nie zachował pliku."
-      },
-      {
-        "type": "wayback",
-        "label": "Archiwalny RSS",
-        "url": "https://web.archive.org/web/20251002091808id_/https://castr.me/npub1adsudqw8jge35ff5g8vc7q6xqugpza3cxmaqm6fgk4uv0nd50gms4hn7pf/rss.xml",
-        "playable": false
-      }
-    ],
     "description": "Bujać! E02 is out!\nThis time with English subtitles!\nI'm impressed how much value community is adding to that project. Thank you all Guys! We are all Satoshi.\n\nZapraszam na rozmowę z nostr:nprofile1qy88wumn8ghj7mn0wvhxcmmv9uq36amnwvaz7tmwdaehgu3wvf5hgcm0d9hx2u3wwdhkx6tpdshsqgp9js24nnytds66s7q09s7qqucl04jjuumfm29yzcclzg0djhczv5d3yd60 o społeczności Bitcoinerów w krajach niemieckojęzycznych nagraną podczas nostr:nprofile1qqsd0f68dvf98gvs9am9dp0lu0f4r7xzu2k89rm9tt448axf5tu6wlgphpy4c #BTCPrague\n\nhttps://gadaj.yana.do/5637dbaaf1c02b71738b5de72a41ac3cd66fbfb1521d7dd472525ae547a6feab.mp4\n\nMateriał powstał dzięki wsparciu:\nhttps://cryptosteel.com/\nhttps://www.bitomat.com/\nnostr:nprofile1qythwumn8ghj7cnfw33k76twv4ezuum0vd5kzmp0qy88wumn8ghj7mn0wvhxcmmv9uqzpuuhpuxhu3877sgjq4vfeefdvdc6q22x6fqcyd4snhgdggam2fsnna8u3m\nnostr:nprofile1qydhwumn8ghj7cm0w4h8gunfv4ejuenfv96x5ctx9e3k7mgpz3mhxue69uhhyetvv9ujuerpd46hxtnfduqzpsrkcrqqkydl2zdt26rtft2vu3c7xgc4lp3lzpjvp256nmdc9674xaehls\nnostr:nprofile1qyxhwumn8ghj7mn0wvhxcmmvqyg8wumn8ghj7urvv43zucmvda6kgqpqqv02xpsc3lhxxx5x7xswf88w3u7kykft9ea7t78tz7ywxf7mxs9q9c3tpu\nnostr:nprofile1qyg8wumn8ghj7vf5xqhxvdm69e5k7qgcwaehxw309a38ytnsw4e8qmr9wfjkccte9e3k7mgqyqe3waa0ygy5ux4pesa94zk4pl5yms4tst5gvqsz73xaz6t83ckvwyg5e9h\n\nJeśli dostrzegasz wartość naszej pracy - puść zapa, żebyśmy mogli budować bez polegania internetowych gigantach.\nInternet należy do nas.",
     "descriptionSourceUrl": "https://web.archive.org/web/20251002091808id_/https://castr.me/npub1adsudqw8jge35ff5g8vc7q6xqugpza3cxmaqm6fgk4uv0nd50gms4hn7pf/rss.xml",
     "descriptionSourceType": "rss",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z zachowanego archiwalnego RSS; HTML usunięty z zachowaniem kolejności akapitów.",
-    "artwork": "assets/episodes/s1-e02.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z zachowanego archiwalnego RSS; HTML usunięty z zachowaniem kolejności akapitów."
   },
   {
     "id": "s1-e03",
-    "number": "E03",
-    "series": "sezon-1",
-    "date": "2025-07-04",
-    "title": "Ze Stanisławem Wołochem o fiducjarnym biznesie i science-fiction",
-    "guest": "Stanisław Wołoch",
-    "summary": "Rozmowa nagrana podczas BTC Prague o ekonomii, inflacji, zaufaniu, prywatności i science-fiction.",
-    "topics": [
-      "fiat",
-      "biznes",
-      "science-fiction",
-      "prywatność"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/1yPoddBxKubqA64Cv86U8M",
-        "playable": true,
-        "note": "Ponowna publikacja: 14.10.2025."
-      },
-      {
-        "type": "youtube",
-        "label": "Zwiastun na YouTube",
-        "url": "https://www.youtube.com/watch?v=jVer1d0UxaI",
-        "playable": true,
-        "note": "Zwiastun, nie pełny odcinek."
-      },
-      {
-        "type": "wayback",
-        "label": "Zachowany pierwotny plik",
-        "url": "https://web.archive.org/web/20250716201628id_/https://gadaj.yana.do/8496e1127ec9b58bdf007fce5b6d7a8a168971175a1339a98329aed9449f09bd.mp4",
-        "playable": true
-      }
-    ],
     "description": "W tym odcinku, nagranym na żywo w Pradze, prowadzę swobodną, niefiltrowaną rozmowę ze Staszkiem – organizatorem polskiej społeczności bitcoinowej i przedsiębiorcą prowadzącym kantor krypto. Rozkładamy na czynniki pierwsze edukację ekonomiczną (a raczej jej brak), inflację i zaufanie do instytucji, różnice kulturowe między Polską a Czechami oraz rolę Bitcoina jako praktycznego narzędzia do przesyłania wartości i budowania niezależności finansowej. Rozmawiamy o pułapkach lewaru i „tradingu”, wygodzie płatności kontra ryzyko totalnej inwigilacji, a także o tym, jak wychowywać dzieci, by widziały świat takim, jaki jest – i dlaczego kolejne pokolenie może być najbardziej „ultra-bitcoinowe”.Dzielimy się osobistymi historiami: od urzędniczego niezrozumienia technologii i „państwowych” zwrotów akcji, po realne konsekwencje systemu komorniczego i blokad środków. Zastanawiamy się, jak budować społeczność, mówić o Bitcoinie po polsku i tworzyć wydarzenia, które przyciągną ludzi szukających realnych rozwiązań zamiast marketingowych miraży. To odcinek o wolności, odpowiedzialności i inwestowaniu najcenniejszego zasobu – czasu – w rzeczy, które mają sens.Materiał nagrany podczas BTC Prague 2025.Dziękuję sponsorom za umożliwienie mi nagrania tej rozmowy:https://cryptosteel.com/https://www.bitomat.com/https://teamtoxic.xyz/  Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy do wzięcia udziału w programie Bitcoin District Workaway oraz w zjeździe Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl lub onchain------------------(00:30) Luźny start rozmowy: studio, czapka i \"pierwszy raz\" podcastera(01:05) Przedstawienie Staszka i rola w polskiej społeczności Bitcoina(01:49) Po co nagrywać? Wolność słowa, brak cenzury i motywacje(02:40) Wychowanie dzieci i zrozumienie pieniędzy: lekcje od taty, inflacja(05:19) Działanie w \"Matrixie\" i edukacja rodziny oraz społeczności(06:41) Hakerspace, krypto i zaskakujące wnioski z prezentacji(08:20) Oszczędności, złoto vs. Bitcoin, błędy finansowe klasy średniej IT(09:47) Szkolne nauczanie przedsiębiorczości jako \"wiedza negatywna\"(12:02) Marnowanie zasobów w systemie fiducjarnym i refleksje o Chinach(13:40) Literatura antytotalitarna i manifest: \"Bujać to my, panowie szlachta\"(14:44) Konferencje: Czechy vs. Polska i mówienie o Bitcoinie po polsku(16:13) Przestroga przed tradingiem i lewarem; rola kantoru jako alternatywy przelewów(17:31) Transfery międzynarodowe: doświadczenia z Azją Środkową i różnice prowizji(18:45) Wygoda płatności bezgotówkowych vs. ryzyko inwigilacji i blokad(19:32) Historia blokady kont przez komornika i wnioski o przechowywaniu środków(21:27) Prawo naturalne vs. prawo państwowe; budowanie równoległych struktur(21:59) Rodzina i przyszłe pokolenie bitcoinerów: wychowanie i edukacja dzieci(23:29) Twarde zasady Bitcoina kontra przymus państwa; zakończenie rozmowyJeśli dostrzegasz wartość naszej pracy - puść zapa, żebyśmy mogli budować bez polegania na internetowych gigantach.Internet należy do nas.",
     "descriptionSourceUrl": "https://open.spotify.com/episode/1yPoddBxKubqA64Cv86U8M",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s1-e03.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s1-e04",
-    "number": "E04",
-    "series": "sezon-1",
-    "date": "2025-07-12",
-    "title": "Z Jesterem o języku i zimie",
-    "guest": "Jester",
-    "summary": "O języku polskiej edukacji bitcoinowej, Proof of Work, samowystarczalności, rolnictwie i lokalnej niezależności.",
-    "topics": [
-      "język",
-      "edukacja",
-      "Proof of Work",
-      "samowystarczalność"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/4uXbBzMW5ZcLrfA2qDZry5",
-        "playable": true,
-        "note": "Ponowna publikacja: 20.10.2025."
-      },
-      {
-        "type": "youtube",
-        "label": "Zwiastun na YouTube",
-        "url": "https://www.youtube.com/watch?v=yeGrPElIa1o",
-        "playable": true,
-        "note": "Zwiastun, nie pełny odcinek."
-      },
-      {
-        "type": "wayback",
-        "label": "Zachowany pierwotny plik",
-        "url": "https://web.archive.org/web/20250715181347id_/https://gadaj.yana.do/e5888daa770b5e592b8605e3876097301d3e6a3deadbebc723329fedc83f7916.mp4",
-        "playable": true
-      }
-    ],
     "description": "W tym odcinku rozmawiam z Jesterem – tłumaczem i edukatorem bitcoina – o budowaniu polskojęzycznych zasobów dla społeczności BTC, jakości tłumaczeń i komunikatywności języka. Schodzimy też w głąb tematów wolności, odpowiedzialności i samowystarczalności: od sensu życia jako trwania i „perpetuowania” siebie, przez Proof of Work i realną pracę, po krytykę centralizacji, systemu fiducjarnego i ich skutków dla żywności, rolnictwa i codzienności. Zastanawiamy się, jak praktycznie poszerzać zakres własnej niezależności, działać lokalnie i dbać o „swoich ludzi”, a jednocześnie budować otwarte zasoby wiedzy i narzędzia dla Bitcoina po polsku.Wspominamy o polskim tłumaczeniu Broken Money Lyn Alden, o roli prostego, zrozumiałego słownictwa w edukacji oraz o tym, że prawdziwa zmiana rodzi się z odpowiedzialnych decyzji jednostek, nie z gry w systemie. Na koniec – jak zawsze – zaproszenie do współtworzenia i korzystania ze wspólnych zasobów community oraz namiary na stronę Jastera z projektami i kontaktami.Dzięki Jester za poświęcony czas i interesującą dyskusję.nTo był już kolejny dzień na BTC Prague, więc wybaczcie proszę pogubione wątki.Dziękuję wszystkim, bez których ten materiał by nie powstał:https://cryptosteel.com/https://www.bitomat.com/https://teamtoxic.xyz/https://yana.do/Jeśli dostrzegasz wartość naszej pracy - puść zapa, żebyśmy mogli budować bez polegania na internetowych gigantach.Internet należy do nas.--- Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy do wzięcia udziału w programie Bitcoin District Workaway oraz w zjeździe Bitcoin FilmFest (4-7 czerwca 2026) w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl lub onchain------------------(00:35) Start nagrania, ustawianie sprzętu i przedstawienie gościa (Jaster)(01:40) Bitcoin, biohacking i rola Jastera jako tłumacza w polskiej społeczności(03:31) „Pieniądz oparty na pracy?” – spór o koszty tworzenia Bitcoina(04:31) Tłumaczenie Broken Money i zasady dobrego przekładu technicznego(07:31) Język, kalendarze i kultura: dygresje o „latach” i „wiosnach”(08:07) „Idzie wojna” – o III wojnie światowej bez bomb i o sile nabywczej(10:13) Perspektywa Irańczyka: reżimy kontra obywatele, złożoność konfliktów(13:25) Wojna, podatki i inflacja – obrazy zniszczenia jako pretekst do dodruku(16:16) Pandemia, PKB i pytanie: po co podatki, skoro można drukować?(18:14) Sens życia według rozmówców: przetrwanie i „perpetuowanie” siebie(21:14) Entropia, praca i fizyka: jak „budowanie” poszerza granice świata(24:06) Saylor i historia USA: wolność ścigana przez regulacje(26:07) Manifestacje, Proof of Work i „marnowanie” energii społecznej(29:29) Zakamarki polskiego internetu, tożsamość i wolność od przymusu(30:47) Rolnictwo, licencje i centralizacja: od świń dziadka do zlewni mleka(33:05) „Po owocach ich poznacie”: kartelizacja żywności i bezsilność obywateli(35:42) Czy jest nadzieja? Bitcoin jako odebranie finansowej praprzyczyny(37:34) Samodzielność jako spektrum: lokalność, wspólnota i przygotowanie(38:48) Wolność i prawda jako cele; podziękowania i siła community 21(40:25) Książki, studio, zasoby społeczności i kontakt: jesterhodl.com",
     "descriptionSourceUrl": "https://open.spotify.com/episode/4uXbBzMW5ZcLrfA2qDZry5",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s1-e04.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s1-e05",
-    "number": "E05 / BONUS",
-    "series": "sezon-1",
-    "date": "2025-07-26",
-    "title": "Z Patrykiem z Bitchair o pracy jako radości",
-    "guest": "Patryk / Bitchair",
-    "summary": "O rzemiośle, pracy dającej radość, niezależności poza biurem i współpracy międzynarodowej.",
-    "topics": [
-      "praca",
-      "rzemiosło",
-      "Bitchair",
-      "współpraca"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/0LG9evPsMn2S3A1jnvMGYP",
-        "playable": true,
-        "note": "Ponowna publikacja: 29.10.2025."
-      },
-      {
-        "type": "nostr",
-        "label": "Pierwotny plik z RSS",
-        "url": "https://gadaj.yana.do/6603770c7fdffab1df113cbeb7321ce3bddb0dc206ce3e5e096d395fe812f89c.mp4",
-        "playable": false,
-        "note": "Wayback nie zachował pliku."
-      },
-      {
-        "type": "wayback",
-        "label": "Archiwalny RSS",
-        "url": "https://web.archive.org/web/20251002091808id_/https://castr.me/npub1adsudqw8jge35ff5g8vc7q6xqugpza3cxmaqm6fgk4uv0nd50gms4hn7pf/rss.xml",
-        "playable": false
-      }
-    ],
     "description": "W tym odcinku zabieram Was do Pragi, gdzie rozmawiam z czeskim twórcą rzemieślniczych, „bitcoinowych” krzeseł. Z perspektywy gościa w czeskiej społeczności BTC patrzymy sobie w oczy i sprawdzamy, jak wiele da się przekazać bez słów – po słowiańsku, ponad granicami języka. Wspólnie krytykujemy fiatowy plastik w codzienności (nawet w kuflu piwa) i rozmawiamy o pracy jako radości, o wolności działania poza biurkiem 8–16 oraz o tym, jak oddolne inicjatywy budują realne wspólnoty. Zaglądamy też do lokalnego community „21” i marzymy o odbudowaniu na sieci Bitcoin symbolicznej „Czechosłowacji” – bez sztucznych granic, które służą jedynie ściąganiu podatków. Zapraszam wszystkich do współtworzenia: rąk do pracy potrzeba, a dobre rzemiosło broni się samo. Na koniec gość zdradza, gdzie znaleźć jego krzesła: Bitchertoczka Store (Bitchertočka Store).Dzięki!dvadsatjeden i jednadvacetorg za tak miłe przyjęcie i ugoszczenie przedstawicielaDwadzieścia Jeden podczas BTC PraguePracę Patryka znajdziecie na:https://bitchair.store/----Jeśli dostrzegasz wartość naszej pracy - puść zapa, żebyśmy mogli budować bez polegania na internetowych gigantach.Internet należy do nas. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy do wzięcia udziału w programie Bitcoin District Workaway oraz w zjeździe Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl lub onchain----(00:25) Start nagrania i lekkie rozgrzewkowe dialogi(01:00) Pierwsze wrażenia z miasta i \"kukanie\" w oczy(02:19) Gościnnie w Czechach: bitcoinowe community(02:53) Patryk i rzemiosło: krzesła i fotele w starym stylu(03:57) Spacer po Pradze i pytanie o wolność(05:29) Piwo w plastiku vs kultura – krytyka fiat-śmieci(07:06) Słowiańskie porozumienie bez słów(08:02) Pomysł: Czechosłowacja 2.0 na sieci Bitcoin(09:13) Granice, podatki i budowanie oddolnych społeczności(09:52) Praca rzemieślnika: samodzielność i frajda z pracy(10:39) Wolność pracy 24/7 – własne zasady(11:21) Gdzie znaleźć: \"Bitchertećka Toćka\" – link do sklepu",
     "descriptionSourceUrl": "https://open.spotify.com/episode/0LG9evPsMn2S3A1jnvMGYP",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s1-e05.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s2-e06",
-    "number": "E06",
-    "series": "sezon-2",
-    "date": "2025-09-10",
-    "title": "Z mec. Gracjanem Pietrasem o Proof of Work",
-    "guest": "mec. Gracjan Pietras",
-    "summary": "Rozwinięcie rozmowy z Community Stage Bitcoin FilmFest 2025: praca, energia, niepodrabialny koszt i odporność Bitcoina.",
-    "topics": [
-      "Proof of Work",
-      "energia",
-      "Bitcoin FilmFest",
-      "prawo"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/4Z5Yf8m8IL994Nc0qaWyuX",
-        "playable": true,
-        "note": "Ponowna publikacja: 12.11.2025."
-      },
-      {
-        "type": "youtube",
-        "label": "Zwiastun na YouTube",
-        "url": "https://www.youtube.com/watch?v=bNMvaSHfk58",
-        "playable": true,
-        "note": "Zwiastun, nie pełny odcinek."
-      },
-      {
-        "type": "nostr",
-        "label": "Pierwotny plik z RSS",
-        "url": "https://gadaj.yana.do/2c8d65cb900c488b58ed4889ee1e6098058e3af5b88447f82f1db5d866290110.mp4",
-        "playable": false,
-        "note": "Wayback nie zachował pliku."
-      }
-    ],
     "description": "W dzisiejszym odcinku wracam do rozmowy o Bitcoinie z mec. Gracjanem Pietrasem (Kancelaria dr Jerszyński Pietras), by dokończyć wątek rozpoczęty podczas Bitcoin Film Fest. Wychodząc od historii Proof of Work (Adam Back, antyspam w e‑mailach), przechodzimy do jego roli w Bitcoinie: niepodrabialnego kosztu, antyspamu ekonomicznego, mechanizmu emisji i zabezpieczenia łańcucha. Rozbieramy na czynniki „zegarek” Bitcoina: bloki jako tyknięcia czasu, samoregulację przez dostosowanie trudności i zasadę „najdłuższego łańcucha”. Dyskutujemy zależność energii, pracy i wartości, fizyczne podstawy zaufania do pieniądza, różnicę między „tamper-resistant” a „tamper-proof” oraz skutki decentralizacji dla bezpieczeństwa sieci. Dotykamy też szerszych konsekwencji: oszczędzanie jako prawo i możliwość przy Sound Money, preferencje czasowe w systemie fiducjarnym, analogie do złota i piramid jako „dowodów pracy” cywilizacji, a także napięcie między wolnym rynkiem, zaufaniem społecznym i centralnym sterowaniem. Zastanawiamy się nad cyklicznością Bitcoina, rolą hash-rate’u, grawitacją adopcji i tym, jak projekt oparty o zasady fizyki może zmieniać paradygmat gospodarczy. Zapraszamy do dalszej dyskusji – zegar Bitcoina tyka z każdym blokiem.Spotkaliśmy się, by omówić i rozwinąć wątki naszej dyskusji na polskojęzycznej Community Stage podczas Bitcoin FilmFest 2025.Pozdro dla pracujących termodynamicznie mord.Jeśli dostrzegasz wartość naszej pracy - puść zapa, żebyśmy mogli budować bez polegania na internetowych gigantach.Internet należy do nas. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy do wzięcia udziału w programie Bitcoin District Workaway oraz w zjeździe Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl lub onchain------------------(00:00:33) Przedstawienie gościa: mec. Gracjan Pietras i temat odcinka(00:03:02) Geneza Proof of Work: od antyspamu Adama Backa do Bitcoina(00:06:12) Unforgeable costliness: brak Bitcoina za darmo i paralela do złota(00:09:07) Język: \"dowód pracy\" po polsku i znaczenie niepodważalności(00:10:39) Fizyka, czas i entropia jako fundament wartości i pracy(00:12:26) Zaufanie, wolny rynek i rola pieniądza pozbawionego emitenta(00:16:20) Czy mieliśmy wolny rynek? Kontrola pieniądza i konsekwencje(00:22:11) Powrót do tematu: mapa rozmowy i rola czasu w Bitcoinie(00:23:34) Wewnętrzny zegar Bitcoina: porządkowanie zdarzeń bez zewnętrznego czasu(00:26:38) Bloki jako tyknięcia zegara i emisja: energia napędza czas sieci(00:29:34) Blockchain: tamper-resistant vs tamper-proof i ściana energii(00:32:32) Bezpieczeństwo sieci: moc obliczeniowa, atom, komputery kwantowe i motywacje(00:36:03) Więcej konsekwencji PoW: E=mc^2, konserwacja energii i linijka 21 mln(00:41:05) Sound money: pochodzenie terminu i fizyczne właściwości dobrego pieniądza(00:43:14) Skąd się wziął pieniądz? Pokupność vs dług i księgi rozliczeń(00:46:22) Bitcoin jako lepsza technologia i hashrate jako prawdziwy wykres(00:47:29) Cykle, sprzedawać czy nie? Użyteczność kontra zmienność(00:49:30) Polityka, zmiana paradygmatu i przykład Kodaka(00:55:21) Bitcoin jako zegar i dostosowanie trudności: samoregulacja sieci(00:57:12) Czy da się przewidywać przyszłość? Zmienność i potencjalny koniec cykli(00:59:30) Dowody pracy cywilizacji: piramidy, Pałac Kultury i trwałość w epoce fiat(01:02:13) Preferencja czasowa, bylejakość i prawo do oszczędzania(01:04:47) Adopcja w praktyce: płatności w BTC, Nostr i budowanie poza platformami(01:06:31) Nie jesteśmy „kryptowaluciarzami”: sieć pozytywnych bodźców i skończoność(01:07:41) Zamknięcie: grawitacja Bitcoina i zapowiedź kolejnych rozmów",
     "descriptionSourceUrl": "https://open.spotify.com/episode/4Z5Yf8m8IL994Nc0qaWyuX",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s2-e06.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s2-e07",
-    "number": "E07",
-    "series": "sezon-2",
-    "date": "2025-09-15",
-    "title": "Z Ryszardem Zalskim o budowaniu biznesów na sieci Bitcoin",
-    "guest": "Ryszard Zalski",
-    "summary": "O biznesach budowanych na Bitcoinie, niezależnych mediach, Azji, cenzurze i równoległej gospodarce.",
-    "topics": [
-      "biznes",
-      "Azja",
-      "media",
-      "równoległa gospodarka"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/6EEgDLUKoqJqSz0lwC6QTx",
-        "playable": true,
-        "note": "Ponowna publikacja: 19.11.2025."
-      },
-      {
-        "type": "youtube",
-        "label": "Zwiastun na YouTube",
-        "url": "https://www.youtube.com/watch?v=Y4vP8vD2KDM",
-        "playable": true,
-        "note": "Zwiastun, nie pełny odcinek."
-      },
-      {
-        "type": "nostr",
-        "label": "Pierwotny plik z RSS",
-        "url": "https://gadaj.yana.do/37926adcb33a44070f6569be7c1dc4a2635685469414c0c79fba98e85af89389.mp4",
-        "playable": false,
-        "note": "Wayback zachował tylko przekierowanie."
-      }
-    ],
     "description": "W tym odcinku rozmawiam z Ryszardem – radiowcem, od lat mieszkającym w Azji (25 lat na Tajwanie), bitcoinowym maksymalistą i twórcą audycji, który łączy doświadczenia życia w różnych kulturach z praktycznym spojrzeniem na budowę niezależnych mediów. Wspólnie ścieramy się o sens „fiducjarnego” wyścigu po zasięgi, o różnicę między Bitcoinem a „kryptowalutami”, o wartości stojące za pieniądzem suwerennym i o to, czy da się budować biznes „bez pytania o pozwolenie” – w satoshi, na Nostrze i poza algorytmami Big Techu.Dyskutujemy o realnej adopcji Bitcoina (Polska vs. Tajwan), o sile lokalnych społeczności i etosie pracy w Azji, o wolności słowa poza scentralizowanymi platformami oraz o praktyce: jak tworzyć programy, monetyzować treści w satoshi i jednocześnie nie zasilać „Matrixa” systemu fiat. To szczera, momentami ostra wymiana – o tym, jak żyć i tworzyć w nowej równoległej gospodarce BTC, tu i teraz. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy do wzięcia udziału w programie Bitcoin District Workaway oraz w zjeździe Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl lub onchain------------------(00:34) Powitanie gościa: kim jest Ryszard i Radio Wnet(01:23) Bitcoin maximalizm: droga od 2013 do porzucenia altów(05:01) Bitcoin vs. „kryptowaluty”: intencje, neutralność i wpływy(08:16) Budowanie niezależnego biznesu na Bitcoinie i finansowanie SAT-ami(10:23) Spór: popularność, reklamy i „bycie baterią systemu”(16:39) CBDC, krypto-złotówka i rola państw narodowych(18:10) Wspólnoty bitcoinowe: Salwador, Prospera, lokalne społeczności(19:36) Życie w Azji kontra Europa: etos pracy i wolny rynek(24:58) Separacja pieniędzy od rządu i „komuny” bitcoinowe(27:20) Kulisy pomarańczowego studia: format, zasięgi i współprowadzący(35:00) Nostr, wolny internet i mikro-płatności dla twórców(39:03) Produkcja treści: edycja, outsourcing i rozwój kanału(40:00) Cenzura platform, polityka i siła realnej gospodarki(42:38) Bitcoin jako programowalny pieniądz w sieci, nie w kawiarni(43:08) Zakończenie: plany spotkań i zaproszenia do audycji",
     "descriptionSourceUrl": "https://open.spotify.com/episode/6EEgDLUKoqJqSz0lwC6QTx",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s2-e07.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s2-e08",
-    "number": "E08",
-    "series": "sezon-2",
-    "date": "2025-09-25",
-    "title": "Z Grzegorzem o filozofii P2P",
-    "guest": "Grzegorz",
-    "summary": "Sieci P2P, własne nody, internet pokolenia PlayStation, mining off-grid i pomidorowe node’y.",
-    "topics": [
-      "P2P",
-      "nody",
-      "off-grid",
-      "mining"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/1SbdK69gA9lOX06Z1QKnGP",
-        "playable": true,
-        "note": "Ponowna publikacja: 26.11.2025."
-      },
-      {
-        "type": "youtube",
-        "label": "Materiał na YouTube",
-        "url": "https://www.youtube.com/watch?v=rGbHxOOxUO8",
-        "playable": true
-      },
-      {
-        "type": "nostr",
-        "label": "Pierwotny plik z RSS",
-        "url": "https://media.bujac.pl/85716d6fd7555c3fefd2faa62cf7cd70701227d52f0b9b35e03b2c3fd8aa8c31.mp4",
-        "playable": false,
-        "note": "Wayback nie zachował pliku."
-      }
-    ],
     "description": "Z Grzegorzem  sieciach P2P, internecie oczami pokolenia Play Station oraz pomidorowych node'ach.W tym odcinku projektu Bujać siadamy na wiejskiej ławeczce pod orzechem i bez napinki rozmawiamy o wolności, lokalnych społecznościach i Bitcoinie – od filozofii P2P, przez węzły (nody) i mining na prąd ze słońca, po praktyczne bezpieczeństwo kluczy (m.in. seed XOR). Z podwarszawskiego ogrodu płynnie skręcamy w historię regionu (Sulejówek, poligon Piłsudskiego, bunkry w lasach, tradycja oporu), kulturę off‑grid i odpowiedzialność za własne słowa oraz energię. Mówimy o sensie prowadzenia własnego węzła (Bitcoin Knots vs. Core, filtry antyspamu, IBD), suwerenności energetycznej, edukacji zamiast pielgrzymek do „autorytetów”, a także o różnicy między Bitcoinem a „krypto”. Padają konkretne tipy: jak bezpieczniej robić kopie seedów, dlaczego warto wyjść z telewizora do realnej wspólnoty i czemu Bitcoin to pieniądz wolnych ludzi, bez pośredników, z ograniczoną podażą – egzekwowaną przez użytkowników.To swobodna, długa rozmowa – o tym, jak nie oddawać steru nad życiem instytucjom, jak budować lokalne kontrakty „na ławeczce”, jak używać energii (i ognia!) na własnych zasadach oraz jak przygotować się mentalnie i technicznie do świata, w którym wolność wymaga stałej, codziennej praktyki. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy do wzięcia udziału w programie Bitcoin District Workaway oraz w zjeździe Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl lub onchain------------------(00:00:42) Start przy ogrodowej ławeczce i luz rozmowy(00:03:28) Telewizja, radio i cisza od „nadajników”(00:06:56) Auto–Poniak, strefy ekologiczne i miejskie absurdy(00:07:56) Ławeczka jako symbol: kontrakt P2P i lokalność(00:10:58) Ławki gminne vs. własna – pieniądze, samorząd i odpowiedzialność(00:18:16) Skąd jesteś? Natura, przedmieścia i życie poza centrum(00:20:57) Region Warszawa Wschód: Piłsudski, lasy, bunkry i tradycja oporu(00:26:14) Enigma, reaktor „Maria” i ślady wojen w lasach(00:29:41) Polska kultura oporu i propaganda – rozmowa o wojnie(00:43:08) Bezpieczeństwo kluczy: narzędzia, seedy i XOR(00:46:21) Weryfikacja wieku w sieci i kontrola państwa(01:12:21) Dołącza trener – przejście do edukacji o węzłach(01:14:08) Mój node: Raspberry Pi, Umbrel i IBD – gdzie tkwią bottlenecky(01:16:03) Czy Bitcoin Core jest psuty? Filtry antyspamowe i Bitcoin Knots(01:21:11) Po co węzły: cenzuroodporność i globalna sieć P2P(01:22:14) Pokolenie torrentów vs. pokolenie subskrypcji(01:41:06) Czy mining się opłaca? Energia własna, fotowoltaika i wolny rynek hasha(01:56:00) Bitcoin vs. „krypto”: jak tłumaczyć normikom i konkurs na jedno zdanie(02:02:10) Skąd 21 milionów? Satoshi, whitepaper i anonimowość twórcy(02:14:03) Zofiówka, Powstanie Warszawskie i lokalna pamięć(02:18:50) Uciekać czy zostać? Wolność, odmowa odwrotu i codzienna walka(02:24:22) Custody, Lightning i „orange‑pilling” w praktyce(02:25:27) Zamknięcie: sens projektu, wsparcie satsami i spotkania społeczności",
     "descriptionSourceUrl": "https://open.spotify.com/episode/1SbdK69gA9lOX06Z1QKnGP",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s2-e08.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s2-e09",
-    "number": "E09",
-    "series": "sezon-2",
-    "date": "2025-10-01",
-    "title": "Z Maciejem o prywatności, oszczędzaniu i po co komu Bitcoin",
-    "guest": "Maciej",
-    "summary": "Rozmowa dla ludzi spoza bańki: prywatność, oszczędzanie, nody, non-KYC, samodzielne klucze i BitcoinWalk.",
-    "topics": [
-      "prywatność",
-      "oszczędzanie",
-      "non-KYC",
-      "BitcoinWalk"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/52Z0m4lSbPr3QsJJf1gIHE",
-        "playable": true,
-        "note": "Ponowna publikacja: 19.06.2026."
-      },
-      {
-        "type": "youtube",
-        "label": "Fragment na YouTube",
-        "url": "https://www.youtube.com/watch?v=-iUx17r-l3Y",
-        "playable": true,
-        "note": "Krótki fragment, nie pełny odcinek."
-      },
-      {
-        "type": "wayback",
-        "label": "Zachowany pierwotny plik",
-        "url": "https://web.archive.org/web/20251002092005id_/https://media.bujac.pl/46c48c1551f13d3e7ee9f08b747306fc6f5acad30d8f31ba8a955014e1226771.mp4",
-        "playable": true
-      },
-      {
-        "type": "wayback",
-        "label": "Archiwalna strona odcinka",
-        "url": "https://web.archive.org/web/20251002091019id_/https://www.bujac.pl/bujac-e09-z-maciejem-o-prywatnosci-oszczedzaniu-i-komu-ten-caly-bitcoin-w-ogole-jest-potrzebny-1/",
-        "playable": false
-      }
-    ],
     "description": "Daj chwilę materiałowi na załadowanie z prywatnych serwerów i odśwież stronę.Tę rozmowę polecam Mugolom zapętlonym w Matrixie. Jeśli nie widzisz jeszcze, co może Ci dać Bitcoin - posłuchaj Maćka uważnie a po wszystkim koniecznie idź na BitcoinWalk!Dzięki @Maciek!Jeśli uważasz, że nasza praca ma jakąś wartość - ZAPie*dol nas na NOSTR  Cały twardy pieniądz przeznaczamy na dalszą wolnościową edukację w języku polskim. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy na coroczny Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl------------------ Rezydencja podatkowa w libertariańskiej Prosperze Załóż offshore firmę w raju regulacyjnym, $300/rok, legalnie i niemal bez podatków.(00:00:42) Start nagrania w niedzielnej aurze i przedstawienie gościa Maćka(00:02:06) Jak powstał format i wsparcie community (Toxic Team, Nostr)(00:03:56) Bitcoin jako społeczność, nie szybkie bogacenie się(00:04:34) Droga Maćka: wolnościowe korzenie, etyka i krytyka przymusu(00:09:28) Pierwsze zetknięcie z Bitcoinem i rozczarowanie polityką(00:13:24) Wtręt kawowy i wsparcie projektu Bujać (Endo, community 21)(00:16:19) Hazard vs. edukacja: rozmowa z bratem i narracje o krypto(00:20:26) Od wykresów do idei: ścieżka edukacji, Saylor i niezatapialność Bitcoina(00:22:39) Dlaczego Bitcoin przetrwa? Nody, decentralizacja i brak SPOF(00:27:11) Co robi węzeł? Weryfikacja, zasady i unikalność cyfrowej wartości(00:29:28) Niewyłączalna sieć: TOR, stare laptopy i suwerenność kluczy(00:31:12) Fiat w praktyce: rachunki za prąd, mining domowy i energia(00:34:55) Twoje klucze, twoje monety: banki, giełdy i odpowiedzialność(00:36:21) Podaż Bitcoina vs. inflacja fiata i rola konsensusu(00:38:31) Oszczędzanie w BTC, cold storage i płacenie w równoległej gospodarce(00:40:09) Transakcje poza systemem: prywatność, podatki i wolna wymiana(00:43:20) Deflacja i rosnąca siła nabywcza Bitcoina dziś i jutro(00:45:21) Dlaczego mimo to wydawać BTC? Filantropia i realne użycia(00:47:00) Bitcoin jako narzędzie dla dysydentów i ofiar cenzury finansowej(00:52:30) Nie trzeba pozwolenia: odporność na odcięcie prądu i alternatywne kanały(00:55:02) Cypherpunki, kryptografia i prawo do anonimowości(00:56:39) Prywatność w praktyce: Samourai, gotówka i konsekwencje walki(00:57:51) Wieszaki z platyny i 12 słów: przenoszenie majątku przez granice(01:00:04) Sovereign Individual: mobilność kapitału jako tarcza wobec państwa(01:03:02) Nauka przez działanie: podcast, prowadzenie rozmów i Bitcoin Walk(01:05:01) Po co społeczność? Nauka, wsparcie i projekty w Polsce (BTC Map, 21)(01:08:14) Oddzielić Bitcoin od krypto: hype, scam i lekcje z kasyna(01:12:31) Praca w giełdzie krypto i droga „z gówna do Bitcoina”(01:13:36) Wpływy medialne: McCormack, WBD i zmieniająca się scena(01:15:09) Wolność przez oszczędzanie: co dalej po wyjściu z Matrixa?",
     "descriptionSourceUrl": "https://open.spotify.com/episode/52Z0m4lSbPr3QsJJf1gIHE",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s2-e09.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s2-e10",
-    "number": "E10",
-    "series": "sezon-2",
-    "date": "2026-06-26",
-    "dateNote": "Data pierwotnej publikacji nie zachowała się. To data publikacji na Spotify.",
-    "title": "Z Łukaszem o komedii, wolności i kradzionych pomidorach",
-    "guest": "Łukasz",
-    "summary": "Drylowanie o stand-upie, technologii audio, wolności słowa, cenzurze platform, NOSTR, satoshi i pomidorach.",
-    "topics": [
-      "komedia",
-      "wolność słowa",
-      "NOSTR",
-      "pomidory"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/7oDmuEgjUapjyPsCde070X",
-        "playable": true
-      },
-      {
-        "type": "youtube",
-        "label": "Zwiastun na YouTube",
-        "url": "https://www.youtube.com/watch?v=Cv9OIzGlq9U",
-        "playable": true,
-        "note": "Zwiastun, nie pełny odcinek."
-      },
-      {
-        "type": "wayback",
-        "label": "Wzmianka w menu archiwalnej strony",
-        "url": "https://web.archive.org/web/20260120204029id_/https://www.bujac.pl/",
-        "playable": false
-      }
-    ],
     "description": "W dziesiątym odcinku Projektu Bujać nagrywam rozmowę ze starym przyjacielem ze sceny – muzykiem i komikiem – podczas wspólnego drylowania 15 kg wiśni i testowania ogrodowego „studia”. Zaczynamy od ogrodowych realiów, pomidorowych odmian i smaku prawdziwej żywności kontra sklepowa standaryzacja, a potem płynnie przechodzimy do technologii: od dawnych, ciężkich gratów muzycznych po dzisiejsze kieszonkowe studia, dostępność sprzętu i jakość dźwięku. Sporo mówimy o kondycji komedii i stand-upu w Polsce – wulgaryzacji języka, oczekiwaniach publiczności, presji algorytmów – ale też o twórcach, którzy mają coś do powiedzenia. Schodzimy głębiej w temat wolności słowa, cenzury i platform: YouTube, social media, reklamy, pośrednicy, oraz alternatywy bez reklam i bez gatekeeperów. Opowiadam, czemu publikuję na Nostr i przyjmuję wsparcie w satoshi (BTC), jak mikro-płatności bez pośredników zmieniają relację twórca–odbiorca i co daje brak licznika wyświetleń. Dotykamy prywatności (komunikatory, podsłuch, „wygoda za prywatność”), roli bezpośredniej rozmowy vs. ekranów, AI, samotności w sieci, a także kultury gier: Twitch vs Kick, subskrypcje zamiast własności, oraz casus GameStop i tarcia między oddolnymi społecznościami a rynkami finansowymi. Finał to powrót do rzemiosła: robić swoje, bez sponsorów i bez pośpiechu – jak z dobrym pomidorem, który potrzebuje czasu, by mieć smak.Dajcie follow @Lukasz_Kowalski - polski stand up wjeżdża na NOSTR. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy na coroczny Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl------------------ Rezydencja podatkowa w libertariańskiej Prosperze Załóż offshore firmę w raju regulacyjnym, $300/rok, legalnie i niemal bez podatków.(00:00:01) Start nagrania, sprzęt i \"drugi sezon\" podcastu(00:01:56) Misja dnia: drylowanie wiśni i rozmowa przy pracy(00:02:55) Pomidory z Powsina, różnorodność żywności vs. sieciówki(00:04:19) Od ciężarów sprzętu po kieszonkowe studio – rewolucja audio(00:07:01) Założenia projektu: mniej gadać, więcej słuchać gości(00:08:23) Droga do stand-upu i refleksja nad komedią w Polsce(00:10:39) Technologia, popkultura i przekaz ponad autotune(00:12:13) Social media i brak współczesnych \"Grechutów\"(00:13:45) Granice żartu, wulgaryzacja i odpowiedzialność twórców(00:16:39) Polecajki ze sceny: Pontowski, Giza, Fiedorczuk(00:21:02) YouTube, prawa autorskie i cenzura – jak to działa?(00:27:04) Publikacja poza platformami: Nostr, wolność słowa i riff MJ(00:35:11) Reklamy jako kradzież uwagi i peer-to-peer bez pośredników(00:41:14) Lajki vs. satsy: bitcoinowe napiwki i długofalowa wartość(00:45:32) Prywatność korespondencji, komunikatory i harcerskie szyfry(00:49:55) Terapia rozmową, samotność online i fałszywe persony AI(00:52:01) Historie z trasy i ludzkie słabości – anegdoty obozowe(00:58:12) Monokultura Żabki vs. ogrody botaniczne – co jemy?(00:58:45) Musical w produkcji: pisanie, aranże i niezależność(01:00:15) Internet rozsadza media: od TVP/TVN do kanałów na YouTube(01:02:08) Twitch vs. Kick: wojny streamerów, hazard i monetyzacja(01:05:04) GameStop, short squeeze i bunt gamerów przeciw Wall Street(01:08:28) Subskrypcje, własność cyfrowa i prawo do odsprzedaży(01:10:07) Pośrednicy kontra twórcy – kto naprawdę zarabia?(01:11:09) Namawianie na Nostr: zarabiaj w satoshi, bez cenzury(01:12:13) Zmiana to jedyna stała: rynek stand-upu i przyszłość treści(01:13:22) Finał przy wiśniach: budować po swojemu, bez polityków",
     "descriptionSourceUrl": "https://open.spotify.com/episode/7oDmuEgjUapjyPsCde070X",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s2-e10.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s2-e11",
-    "number": "E11",
-    "series": "sezon-2",
-    "date": "2025-11-05",
-    "title": "Z Robertem o hackerach, prawie do odmowy i odsieczy wiedeńskiej",
-    "guest": "Robert / Robson",
-    "summary": "O drodze do Bitcoina, hackerach, kryptowaluciarstwie, NOSTR, cenzurze, lokalnych społecznościach i prawie do odmowy.",
-    "topics": [
-      "hackerzy",
-      "NOSTR",
-      "prawo do odmowy",
-      "społeczność"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify",
-        "url": "https://open.spotify.com/episode/2x7A9SkOd7vr5IF2zjCzbm",
-        "playable": true,
-        "note": "Ponowna publikacja: 03.07.2026."
-      },
-      {
-        "type": "youtube",
-        "label": "Zwiastun na YouTube",
-        "url": "https://www.youtube.com/watch?v=93sxkmtsQfA",
-        "playable": true,
-        "note": "Zwiastun, nie pełny odcinek."
-      },
-      {
-        "type": "wayback",
-        "label": "Zachowany pierwotny plik",
-        "url": "https://web.archive.org/web/20251106002208id_/https://media.bujac.pl/14236fc3107ddc183e04420764896278be5dc3a9b80830a8075ca2531d528d88.mp4",
-        "playable": true
-      },
-      {
-        "type": "wayback",
-        "label": "Archiwalna strona odcinka",
-        "url": "https://web.archive.org/web/20251105234406id_/https://www.bujac.pl/bujac-e11-z-robertem-o-hackerach-kryptowaluciarstwie-prawie-do-odmowy-budowaniu-domu-i-odsiec/",
-        "playable": false
-      }
-    ],
     "description": "W dzisiejszym odcinku rozmawiam z Robertem – organizatorem warszawskich Bitcoin Cafe i wieloletnim animatorem społeczności – o wolności, technologii i praktycznej stronie Bitcoina. Wracamy do jego drogi: od pierwszych fascynacji programowaniem i internetem lat 90., przez „urzeczywistnienie” Bitcoina podczas płacenia w San Francisco w 2013, aż po lata edukacji i spotkań, które przyciągają ludzi z całego świata – od aktywistów po osoby wykluczone z systemu bankowego. Rozróżniamy Bitcoina od „kryptowaluciarstwa”, dotykamy roli stablecoinów, spekulacji i korporacyjnej adopcji (MicroStrategy), a także zagrożeń cenzury i inwigilacji. To rozmowa o odpowiedzialności i oddolnej zmianie: o budowaniu lokalnych społeczności, prawie do odmowy współpracy z systemem, powolnym tempie adopcji (jak difficulty adjustment), Nostrze jako kroku w stronę decentralizacji, a także o bardzo przyziemnych sprawach – od wysychających rzek po uprawę pomidorów – które przypominają, po co w ogóle potrzebujemy suwerennego pieniądza. Na końcu wracam do sensu projektu: tworzenia treści dla wolnych ludzi, mierzonych nie zasięgiem, lecz satami i realną wartością.-----To jednocześnie ostatni dowód pracy wykonanej latem 25' przez \"Bujać! team\" na rzecz wszystkich wolnych ludzi z naszego polskojęzycznego podwórka.Dziękuję wszystkim Anonom zaangażowanym w dowiezienie tego przedsięwzięcia oraz tym, dzięki wsparciu których być może kiedyś weźmiemy się za kolejne odcinki...Piękne to było lato. Nie zapomnę go nigdy. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy na coroczny Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl------------------ Rezydencja podatkowa w libertariańskiej Prosperze Załóż offshore firmę w raju regulacyjnym, $300/rok, legalnie i niemal bez podatków.(00:00:17) Luca rozgrzewka i przyjazd gobcia Roberta(00:01:35) Technologia: b2ogos2awie4stwo i przekle4stwo(00:02:33) Wolnob7 jako proces: definicje i codzienna walka(00:04:24) Droga Roberta do Bitcoina: od gier do oprogramowania(00:08:26) Pierwsze spotkanie z Bitcoinem i ba4ka 2013(00:10:42) P2atnobci w San Francisco i urzeczywistnienie BTC(00:12:21) Szko2a austriacka, libertarianizm i powr2t do Polski(00:13:20) Bitcoin Cafe i warszawska społecznob7(00:15:12) Bitcoin jako narz9dzie praw cz2owieka(00:16:25) Cena, wykresy i dystans do kryptowaluciarstwa(00:18:11) Edukacja kontra 2atki: jak rozbraja7 uprzedzenia(00:19:06) Michael Saylor i korporacyjna adopcja BTC(00:21:20) Hiperbitcoinizacja a pa4stwo i waluty fiducjarne(00:23:12) Salwador, Bukele i ryzyko autorytaryzmu(00:25:28) Bitcoin lokalnie: legalnob7 i si2a oddolnych wsp9lnot(00:27:12) Ostra granica: tylko Bitcoin, nie 2adne tokeny(00:31:36) Wyj5tki ucytkowe: stablecoiny i pragmatyzm(00:33:45) Mi9dzy dogmatyzmem a bcieck5 przejbciow5(00:36:01) Saylor jako 2aker systemu finansowego(00:37:43) Kim jest haker? Incynieryjne spojrzenie na BTC(00:39:50) Dziennik wolnobci i szacunek dla pracy realnej(00:42:25) Internet pokonuje korpomedia, ale...(00:43:44) Cenzura w UK i prawo do prywatnobci(00:46:41) S2owo, kara i kultura: napi9cia spo2eczne(00:48:06) Technologia, rynek i kultura jako droga do wolnobci(00:49:11) Wolnob7 = odpowiedzialnob7 za decyzje(00:50:51) Optymizm d2ugoterminowy vs. natura cz2owieka(00:51:58) Historia o \"Podpierdolonym Powsi4skim\" pomidorze(00:55:20) Czy cz2owiek z natury jest dobry? Kultura i strach(00:57:10) Wysychaj5ce rzeki: lokalna ekologia vs. incytucje(01:00:24) Wieb, powstanie i kruche bezpiecze4stwo cywnobciowe(01:01:21) Czy Bitcoin uzdrowi produkcj9 cywnobci?(01:03:01) Polska tocsamob7, utrata elit i diaspora(01:03:55) Oddolne budowanie: meetupy, spacery, ksi5cki(01:05:11) Matrix podatkowy: dla kogo pracujemy?(01:07:24) Jak wywo2a7 zmian9 bwiadomobci? Zwolni7(01:08:20) Proces oddolny i tempo wyznaczone przez protok95(01:09:20) Konsumpcja, bmieci i jakob7 rzeczy(01:10:51) Komunizm dawniej i dziś, Wsch9d vs. Zach9d(01:12:00) Sezon 2 podsumowanie lata i wdzi9cznob7(01:12:58) Nostr jako alternatywa: zalety i ba4ka w ba4ce(01:14:38) Dla kogo jest ten podcast? Wartob7 ponad zasi9g(01:16:19) Monetyzacja przez Zapy i niezalecnob7 od platform(01:19:20) Druk pieniadza jako ar9d2o problem9w i zako4czenie",
     "descriptionSourceUrl": "https://open.spotify.com/episode/2x7A9SkOd7vr5IF2zjCzbm",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s2-e11.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "docinek-001",
-    "number": "#001",
-    "series": "docinki",
-    "date": "2026-01-09",
-    "title": "Noworoczny docinek niefiducjarny",
-    "guest": null,
-    "summary": "Docinek nagrany w bloku 931401. Pełny opis nie zachował się w osobnym snapshotcie.",
-    "topics": [
-      "docinek",
-      "blok 931401"
-    ],
-    "sources": [
-      {
-        "type": "wayback",
-        "label": "Wzmianka na archiwalnej stronie głównej",
-        "url": "https://web.archive.org/web/20260120204029id_/https://www.bujac.pl/",
-        "playable": false
-      }
-    ],
     "description": null,
     "descriptionSourceUrl": "https://web.archive.org/web/20260120204029id_/https://www.bujac.pl/",
     "descriptionSourceType": "wayback",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Brak pełnego publicznego opisu: zachowany snapshot strony głównej zawiera tylko wzmiankę, a osobna strona odcinka nie zachowała się.",
-    "artwork": "assets/episodes/docinek-001.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Brak pełnego publicznego opisu: zachowany snapshot strony głównej zawiera tylko wzmiankę, a osobna strona odcinka nie zachowała się."
   },
   {
     "id": "docinek-002",
-    "number": "#002",
-    "series": "docinki",
-    "date": "2026-01-10",
-    "title": "Bitcoin Standard w polskim parlamencie",
-    "guest": null,
-    "summary": "Komentarz do akcji Bitcoin Standard w polskim parlamencie, nagrany w bloku 931555. Dalsza część opisu nie zachowała się.",
-    "topics": [
-      "Bitcoin Standard",
-      "parlament",
-      "blok 931555"
-    ],
-    "sources": [
-      {
-        "type": "wayback",
-        "label": "Wzmianka na archiwalnej stronie głównej",
-        "url": "https://web.archive.org/web/20260120204029id_/https://www.bujac.pl/",
-        "playable": false
-      }
-    ],
     "description": null,
     "descriptionSourceUrl": "https://web.archive.org/web/20260120204029id_/https://www.bujac.pl/",
     "descriptionSourceType": "wayback",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Brak pełnego publicznego opisu: zachowany snapshot strony głównej nie zawiera pełnego tekstu, a osobna strona odcinka nie zachowała się.",
-    "artwork": "assets/episodes/docinek-002.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Brak pełnego publicznego opisu: zachowany snapshot strony głównej nie zawiera pełnego tekstu, a osobna strona odcinka nie zachowała się."
   },
   {
     "id": "docinek-003",
-    "number": "#003",
-    "series": "docinki",
-    "date": "2026-01-15",
-    "title": "Co znaczy „fiducjarny”",
-    "guest": null,
-    "summary": "Pogaduchy o znaczeniu słowa „fiducjarny”, BitcoinWalku i budowaniu poza systemem, nagrane w bloku 932391.",
-    "topics": [
-      "fiat",
-      "BitcoinWalk",
-      "blok 932391"
-    ],
-    "sources": [
-      {
-        "type": "wayback",
-        "label": "Wzmianka na archiwalnej stronie głównej",
-        "url": "https://web.archive.org/web/20260120204029id_/https://www.bujac.pl/",
-        "playable": false
-      }
-    ],
     "description": null,
     "descriptionSourceUrl": "https://web.archive.org/web/20260120204029id_/https://www.bujac.pl/",
     "descriptionSourceType": "wayback",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Brak pełnego publicznego opisu: zachowany snapshot strony głównej zawiera tylko skróconą wzmiankę, a osobna strona odcinka nie zachowała się.",
-    "artwork": "assets/episodes/docinek-003.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Brak pełnego publicznego opisu: zachowany snapshot strony głównej zawiera tylko skróconą wzmiankę, a osobna strona odcinka nie zachowała się."
   },
   {
     "id": "docinek-004",
-    "number": "#004",
-    "series": "docinki",
-    "date": "2026-01-20",
-    "title": "BigTech kontra FreedomTech",
-    "guest": null,
-    "summary": "O zależności mediów głównego nurtu, różnicach między BigTech i FreedomTech, skarbcu Bujać! oraz kupowaniu BTC bez KYC przez Bitblik. Nagrany w bloku 933089.",
-    "topics": [
-      "FreedomTech",
-      "BigTech",
-      "non-KYC",
-      "Bitblik"
-    ],
-    "sources": [
-      {
-        "type": "youtube",
-        "label": "Materiał na YouTube",
-        "url": "https://www.youtube.com/watch?v=3KxlYVUI9As",
-        "playable": true
-      },
-      {
-        "type": "wayback",
-        "label": "Archiwalna strona odcinka",
-        "url": "https://web.archive.org/web/20260120203655id_/https://www.bujac.pl/004/",
-        "playable": false
-      }
-    ],
     "description": "Docinek nieficucjarny nagrany w bloku 933089\n\nRozmawiamy o zależności mediów głównego nurtu, o różnicach między BigTech, a FreedomTech, o skarbcu Bujać! i o tym jak w Polsce kupić BTC bez KYC z bitblik.\n\nA jak nas za to usuną z YT to nasz materiał i tak zostanie na nostrze  🙃\n\nJeśli dostrzegasz wartość naszej pracy - puść zapa, żebyśmy mogli budować bez polegania na internetowych gigantach.\n\nInternet należy do nas.",
     "descriptionSourceUrl": "https://web.archive.org/web/20260120203655id_/https://www.bujac.pl/004/",
     "descriptionSourceType": "wayback",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny tekst zachowanej strony odcinka; HTML, osadzony odtwarzacz i elementy nawigacyjne usunięte.",
-    "artwork": "assets/episodes/docinek-004.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny tekst zachowanej strony odcinka; HTML, osadzony odtwarzacz i elementy nawigacyjne usunięte."
   },
   {
     "id": "s3-e01",
-    "number": "S03E01",
-    "series": "sezon-3",
-    "date": "2026-07-10",
-    "title": "Z Tomkiem o Karaibach, crowdfundingu i Bitcoin FilmFest",
-    "guest": "Tomek",
-    "summary": "Karaiby, Bitcoin District na Roatánie, crowdfunding Bitcoin Areny, Bitcoin FilmFest, prywatność, Lightning i Alby.",
-    "topics": [
-      "Roatán",
-      "Bitcoin District",
-      "Bitcoin FilmFest",
-      "crowdfunding"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify / Laissez Faire",
-        "url": "https://open.spotify.com/episode/5iRYmf6go9yyiAD3TEdluO",
-        "playable": true
-      }
-    ],
     "description": "W tym odcinku otwieramy nowy sezon Bujać z przytupem – w nowej lokalizacji i z gościem, który od lat buduje wolnościowe projekty w ekosystemie Bitcoina. Rozmawiamy o ideach, które stoją za Bitcoinem, filozofii wolności, praktycznym aktywizmie oraz o tym, jak z pasji do „pieniądza open‑source” rodzą się realne inicjatywy: od Bitcoin Film Festu w Warszawie po Bitcoin District w libertariańskiej strefie Prospera na wyspie Roatán. Wchodzimy też za kulisy lokalnych działań – od crowdfundingu na remont „Bitcoin Areny” po budowanie rezerwy satsów dla naszego domowego studia. Zapraszam na zapowiedź 4. edycji Bitcoin Film Fest (4–7 czerwca, Kinoteka/PKiN), gdzie kino spotyka się ze społecznością, muzyką i sztuką. Mówimy o programie, premierach, konkursie AI „Money of the Future”, wspólnych mostach z Monerokonem oraz o tym, dlaczego Bitcoin powinien być wnioskiem z przemyślanej filozofii, a nie dogmatem. Sporo o prywatności, Lightning, narzędziach jak Alby, odpowiedzialności za własne klucze i o tym, jak satsy mogą zostać w lokalnych społecznościach, zamiast znikać w systemie.-------trzeci sezon \"Bujać!\" - spotkań z Bitcoinerami rozpoczynamy rozmową z Tomkiem o Karaibach, bitcoinowym crowdfundingu oraz nadchodzącej edycji Bitcoin FilmFest.(4-7 czerwca, Warszawa) i budowaniu na zasadach open source. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy na coroczny Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl------------------ Rezydencja podatkowa w libertariańskiej Prosperze Załóż offshore firmę w raju regulacyjnym, $300/rok, legalnie i niemal bez podatków.(00:01:02) Nowa lokalizacja studia i wprowadzenie do sezonu 3 Bujać(00:03:09) Kim jest gość: Demen i początki w Bitcoinie oraz filozofii(00:06:31) Libertarianizm, wolność i \"radykalność\" poglądów(00:10:48) Od aktywizmu wolnościowego do Bitcoina jako narzędzia zmiany(00:11:39) Roatán, Prospera i projekt Bitcoin District(00:14:57) Bitcoin Arena: remont hali i lokalny crowdfunding(00:21:27) Albi i ekosystem Lightning: portfele, wtyczki, open source(00:33:29) Open source, zaufanie i kompromis między prywatnością a wygodą(00:40:30) Lokalna społeczność, studio Planteka Żuka i saty jako rezerwa(00:40:49) Bitcoin Film Fest 2024: format, program i współpraca z MoneroKon(00:57:47) AI w filmie: kreatywność, konkurs Money of the Future i muzyka(01:15:03) Crowdfunding w Bitcoinie, transparentność i regulacje państwowe(01:23:35) Filozofia, odpowiedzialność i bezpieczeństwo w świecie krypto(01:29:12) Wojna, państwo, wolność i budowanie lokalnej odporności(01:36:08) Uniwersalny język, przyszłość organizacji społecznej i rola Bitcoina(01:48:25) Zamknięcie: apel do słuchaczy, wsparcie i zaproszenie na festiwalRozmowę zarejestrowano w bloku: 948615W audycji wykorzystano utwory:\"Zagrajcie to na moim pogrzebie\" - Piotr \"Jaszczur\" Śnieguła\"Vagabundo\" - Sparrow & Barbossa, Chico Castil",
     "descriptionSourceUrl": "https://open.spotify.com/episode/5iRYmf6go9yyiAD3TEdluO",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s3-e01.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s3-e02",
-    "number": "S03E02",
-    "series": "sezon-3",
-    "date": "2026-07-17",
-    "title": "Z Maciejem o miłości do pieniądza i dziurce w systemowym baloniku",
-    "guest": "Maciej",
-    "summary": "O społeczności bitcoinowej, oszczędzaniu i płatnościach bez KYC, prywatnej komunikacji, pracy, godności i lokalnych mikroekonomiach.",
-    "topics": [
-      "pieniądz",
-      "non-KYC",
-      "praca",
-      "mikroekonomie"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify / Laissez Faire",
-        "url": "https://open.spotify.com/episode/0l15IoP2fNf9blNj2oadJW",
-        "playable": true
-      }
-    ],
     "description": "Bujać E02S03 z Maciejem (@Maciek) o miłości do pieniądza, intencjach władzy fiducjarnej i dziurce w systemowym baloniku.W nowym sezonie Bujać wracam do rozmowy z Maćkiem – „dziwnym wujkiem” i dumnym bitcoinowym maksymalistą. Z perspektywy gospodarza prowadzę nas przez tematy: po co społeczność bitcoinowa, jak oszczędzać i płacić w BTC (w tym non‑KYC), jak Bitcoin działa jako narzędzie wolności i prywatnej komunikacji oraz dlaczego nie da się go „wyłączyć”. Dotykamy też duchowości: relacji pieniądza z wiarą („miłość do pieniądza” vs. pieniądz jako narzędzie), sensu pracy, godności i długiego horyzontu – od katedr po blok po bloku. Dzielenimy się praktyką: Bitcoinwalk w Warszawie, napiwki w BTC, pierwsze zarobione saty za realne usługi, budowanie lokalnych mikro‑ekonomii i odwagi, by po prostu zapytać: „przyjmiesz BTC?”. To odcinek o wolności, odpowiedzialności i wspólnocie, w którym narracja ucieka od sztywnych scenariuszy – po to, by szukać prawdy i realnych rozwiązań, a nie kolejnych iluzji systemu. Zapraszam na sobotnie spacery Bitcoinwalk (Warszawa) – otwarte dla każdego, kto chce zadać pytania, poznać ludzi i zrobić pierwszy krok: od ciekawości do działania. Bez marketingu, bez sponsorów – tylko rozmowa, praktyka i saty. Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy na coroczny Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl------------------ Rezydencja podatkowa w libertariańskiej Prosperze Załóż offshore firmę w raju regulacyjnym, $300/rok, legalnie i niemal bez podatków.(00:00:00) Wejście w klimat odcinka i przedstawienie Maćka(00:03:02) Bitcoin: pierwsze zetknięcie i tożsamość maksymalistw(00:04:23) AI kontra naturalna rozmowa i lekcje z poprzedniego wywiadu(00:07:17) Sezon jak album i metoda prowadzenia podcastu(00:07:31) Niedzielne spotkanie: plan rozmowy o Bitcoinie i duchowoi(00:10:09) Jzyk ojczysty, wsplnota polskojęzyczna i tożsamość(00:11:39) Niepokoje o kierunek świata, PKB i wartość pracy(00:13:12) Wieczność, hierarchia wartości i pieniądz w chrześcijaństwie(00:20:14) Katedry, dziedzictwo i bitcoinerska perspektywa pracy wielu pokole4(00:20:32) \"Oddajcie Cezarowi\": reinterpretacja a pieniądz fiducjarny(00:26:22) Technologia vs. czas pracy: od niecki z lipy do masowej produkcji(00:28:23) Niewolnictwo, propaganda i edukacja jako narzędzia kontroli(00:37:11) Od wolnościowc0w do Bitcoina: nadzieja poza polityk00(00:41:01) Bitcoinwalk w Warszawie i siła społeczności 21(00:45:31) Cierpliwość, zmiana w czasie i rola spotkań na żywo(00:47:19) Artyści diagnozują kryzys—kultura jako barometr zmian(00:48:11) Wolność ducha: Maksymilian Kolbe i godność w zniewoleniu(00:54:05) Dlaczego Bitcoin moe rozwiązywać realne problemy ludzi(00:57:21) Open source, węzły i dlaczego sieci nie da si 1 zatrzymać(01:02:17) \"Kochajcie się jak bracia, liczcie się jak starsi bracia\"—weryfikacja i interes własny(01:02:26) Non-KYC: opór regulacyjny i sens prywatności finansowej(01:15:20) Kryptografia jako pokojowy miecz i problem konfiskaty pieni0dza(01:24:18) Got04wka, prywatna komunikacja i przelewy bitcoinem(01:33:27) Od oszczędzania do zarabiania: projekty, napiwki i BTC w praktyce(01:45:02) Usługi za BTC: dentysta, kelnerki i b09ble w parku(01:45:49) Zaproszenie na Bitcoinwalk Warszawa i zakończenieRozmowa nagrana w bloku nr 949776: W audycji wykorzystano utwory:Happysad - Wszystko jedno.Angine de Poitrine - Fabienk",
     "descriptionSourceUrl": "https://open.spotify.com/episode/0l15IoP2fNf9blNj2oadJW",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s3-e02.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   },
   {
     "id": "s3-e03",
-    "number": "S03E03",
-    "series": "sezon-3",
-    "date": "2026-07-24",
-    "title": "Z mec. Gracjanem Pietrasem o wolności wypowiedzi i spirali śmierci",
-    "guest": "mec. Gracjan Pietras",
-    "summary": "Wolność wypowiedzi, rola adwokata, KSeF i Chat Control, austriacka szkoła ekonomii, hashrate, halving i odporność Bitcoina na cenzurę.",
-    "topics": [
-      "wolność wypowiedzi",
-      "prawo",
-      "Chat Control",
-      "hashrate"
-    ],
-    "sources": [
-      {
-        "type": "spotify",
-        "label": "Pełny odcinek na Spotify / Laissez Faire",
-        "url": "https://open.spotify.com/episode/47rlPi5qpJetXA4OKppARR",
-        "playable": true
-      }
-    ],
     "description": "Bujać! E03S03 z mecenasem Pietrasem @Gracjan Pietras o wolności wypowiedzi, prawach potęgowych i spirali śmierci.W tym odcinku rozmawiam z prawnikiem–bitcoinerem o granicach wolności słowa, roli adwokata jako tarczy obywatela przed państwem oraz o tym, jak coraz gęstsza siatka regulacji (KSeF, Chat Control) uderza w prywatność i swobodę gospodarczą. Schodzimy głęboko w temat pieniądza: od austriackiej szkoły ekonomii i „Standardu Bitcoina”, przez deflację technologiczną i cel inflacyjny, po praktyczne wnioski, dlaczego bitcoin – jako sieć i aktywo – bywa odporny na cenzurę. Tłumaczymy hashrate, dostosowanie trudności, halving i prawo potęgowe (power law) w kontekście ceny, adopcji i hash rate’u. Zastanawiamy się, gdzie przebiega granica między interesem jednostki a kolektywu, czym realnie jest praworządność i jak bronić się przed nadużyciami aparatu państwa. Mówimy o bezpieczeństwie finansowym, o błędach trzymania środków na giełdach (case: Zonda), o orędż-pillingu, o płaceniu i oszczędzaniu w bitcoinie oraz o tym, że wzrost wartości sieci wymaga używania BTC w codziennych rozliczeniach. Na koniec – odrobina kultury: o „punkrockowym” DNA Bitcoina i muzycznych inspiracjach (Tool). Dołącz do polskiej społeczności Bitcoin na Telegramie. Zapraszamy na coroczny Bitcoin FilmFest w Warszawie!https://bujac.pl ⛓️‍ bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad⚡️sats@bujac.pl------------------ Rezydencja podatkowa w libertariańskiej Prosperze Załóż offshore firmę w raju regulacyjnym, $300/rok, legalnie i niemal bez podatków.(00:00:27) Pokora w mówieniu o technologiach i rola przygotowania(00:01:52) Czego uczy fach adwokata: porządek myślenia, perswazja i rzetelność(00:03:00) Granice obrony: czy adwokat powinien bronić, w co nie wierzy(00:04:00) Po co adwokat w procesie i wyrównywanie szans z państwem(00:06:13) Edukacja formalna i zaufanie społeczne vs. pieczątki(00:08:18) Adwokat jako przedsiębiorca i obrońca przed państwem(00:09:10) Narastająca dystopia regulacyjna i KSeF a tajemnica adwokacka(00:11:12) Dystopie Orwella i Huxleya a współczesność(00:13:22) Wolność słowa: zakres, granice i prywatne platformy(00:16:10) Pieniądz jako forma wypowiedzi i finansowa cenzura bankowa(00:17:10) Granice wolności słowa: nawoływanie do przemocy, zniewaga, zniesławienie(00:21:05) Nieufność wobec państwa i po co nam adwokaci(00:22:23) Jak kliknął Bitcoin: pierwsze teksty i długa droga nauki(00:24:57) Hash rate i podstawy działania sieci dla początkujących(00:27:01) Standard Bitcoina i zrozumienie pieniądza(00:31:11) Ekonomia austriacka vs. keynesizm i mit 2% inflacji(00:37:01) Wolny rynek, protekcjonizm i rola państwa w kreacji pieniądza(00:42:03) Spektrum wolności, prywatność i Chat Control(00:46:22) Backdoory, kompetencje technologiczne i ochrona większości(00:49:01) System idealny nie istnieje: praworządność i granice regulacji(00:53:00) Dług publiczny, bezpieczeństwo i spory konstytucyjne(00:58:59) Dlaczego Bitcoin może być odporny na cenzurę i siła sieci(01:05:29) Prawo potęgowe, wykresy log-log i unikalność Bitcoina(01:10:38) CAP 21 mln, dostosowanie trudności i halving(01:14:02) Paradoks Zenona, podział Satoshi i przyszłość emisji(01:17:07) Afera Zonda, dlaczego nie trzymać środków na giełdzie(01:21:11) Orange peeling dla polityków: książki, Sejm i apolityczność(01:25:17) Rezerwa BTC w NBP? Patriotyzm, hiperinflacja i reset(01:32:13) Jak zacząć: oszczędzać w BTC, używać i wzmacniać sieć(01:38:34) Legalne rozliczenia w BTC, podatki i granice wolności(01:43:06) Spontan na koniec: wizja hiperbitcoinizacji i muzyczne akcentyRozmowę nagrano w bloku 951534.W audycji wykorzystano utwór:TOOL - Forty Six & 2",
     "descriptionSourceUrl": "https://open.spotify.com/episode/47rlPi5qpJetXA4OKppARR",
     "descriptionSourceType": "spotify",
-    "descriptionRetrievedAt": "2026-09-16T22:00:23Z",
-    "descriptionNotes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował.",
-    "artwork": "assets/episodes/s3-e03.png"
+    "retrievedAt": "2026-09-16T22:00:23Z",
+    "notes": "Pełny opis z publicznej strony Spotify; usunięto automatyczny prefiks SEO oraz HTML, jeśli występował."
   }
 ]

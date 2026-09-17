@@ -326,7 +326,7 @@ blockquote {
 }
 .episode-card {
   position: relative;
-  min-height: 390px;
+  min-height: 500px;
   padding: 1.35rem;
   display: flex;
   flex-direction: column;
@@ -335,6 +335,16 @@ blockquote {
   transition: background 140ms ease, color 140ms ease;
 }
 .episode-card:nth-child(3n) { border-right: 0; }
+.episode-artwork {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 1px solid var(--paper);
+  background: var(--paper-deep);
+  filter: contrast(1.08) saturate(.9);
+}
+.episode-card:hover .episode-artwork { border-color: var(--ink); }
 .episode-card:hover { background: var(--paper); color: var(--ink); }
 .episode-index {
   width: fit-content;
@@ -404,6 +414,21 @@ blockquote {
 .infra-list strong { font: 950 1.7rem/1 var(--display); text-transform: uppercase; }
 .infra-list span { font-size: .78rem; text-align: right; }
 
+.support-section { color: var(--paper); background: var(--ink); border-bottom: var(--line); }
+.support-section .section-mark { background: var(--signal); color: var(--ink); border-color: var(--paper); }
+.support-layout { display: grid; grid-template-columns: .8fr 1.2fr; }
+.support-layout > div { min-width: 0; padding: clamp(2rem, 5vw, 5rem); }
+.support-layout > div:first-child { border-right: var(--line); }
+.support-section h2 { margin: .8rem 0 1.2rem; font: 950 clamp(4rem, 9vw, 8rem)/.8 var(--display); letter-spacing: -.06em; text-transform: uppercase; }
+.support-section p { max-width: 540px; font-size: 1.1rem; }
+.donation-list { display: grid; align-content: center; gap: 1rem; }
+.donation-item { display: grid; gap: .8rem; padding: 1.2rem; border: 1px solid var(--paper); }
+.donation-item > div { display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+.donation-item strong { font: 950 1.5rem/1 var(--display); text-transform: uppercase; }
+.donation-item span { color: var(--signal-light); font-size: .75rem; text-align: right; }
+.donation-item code { display: block; overflow-wrap: anywhere; color: var(--paper); font: .82rem/1.35 ui-monospace, monospace; }
+.donation-item .button { justify-self: start; }
+
 footer {
   min-height: 160px;
   display: flex;
@@ -471,10 +496,13 @@ footer p { color: #aaa397; }
 .dialog-number { margin: 0; color: var(--signal); font: 950 1rem/1 var(--display); }
 .dialog-body h2 { margin: .5rem 0 1rem; max-width: 760px; font: 950 clamp(2.6rem, 6vw, 5.8rem)/.88 var(--display); text-transform: uppercase; letter-spacing: -.04em; }
 .dialog-lead { max-width: 680px; font-size: 1.08rem; }
+.episode-description { max-width: 720px; margin: 2rem 0; padding-top: 1.2rem; border-top: var(--line); }
+.episode-description h3 { margin: 0 0 1rem; font: 950 1.6rem/1 var(--display); text-transform: uppercase; }
+.episode-description p { line-height: 1.5; }
+.description-source, .description-missing { color: var(--graphite); font-size: .82rem; }
 .player-shell { margin: 2rem 0; border: var(--line); background: var(--ink); color: var(--paper); }
-.player-consent { padding: 1.5rem; display: grid; gap: 1rem; }
-.player-consent p { margin: 0; max-width: 620px; }
-.player-consent button { width: fit-content; }
+.player-inline, .player-missing { padding: 1.5rem; display: grid; gap: 1rem; }
+.player-inline p, .player-missing p { margin: 0; max-width: 620px; }
 .player-shell iframe { display: block; width: 100%; border: 0; min-height: 352px; }
 .player-shell iframe.spotify-frame { min-height: 152px; }
 .player-shell video { display: block; width: 100%; max-height: 70vh; }
@@ -494,8 +522,8 @@ footer p { color: #aaa397; }
   .hero-copy { min-height: 650px; }
   .hero-copy::after { display: none; }
   .hero-art { min-height: 620px; }
-  .manifest-grid, .infra-layout { grid-template-columns: minmax(0, 1fr); }
-  .manifest-grid > div:first-child, .infra-layout > div:first-child { border-right: 0; border-bottom: var(--line); }
+  .manifest-grid, .infra-layout, .support-layout { grid-template-columns: minmax(0, 1fr); }
+  .manifest-grid > div:first-child, .infra-layout > div:first-child, .support-layout > div:first-child { border-right: 0; border-bottom: var(--line); }
   .manifest-grid { min-height: 0; }
   .infra-list { min-width: 0; }
   .episode-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -527,9 +555,11 @@ footer p { color: #aaa397; }
   .filters { padding-inline: 1rem; }
   .episode-grid { grid-template-columns: 1fr; }
   .episode-card, .episode-card:nth-child(3n) { border-right: 0; min-height: 420px; }
-  .infra-layout > div { padding: 3rem 1rem; }
+  .infra-layout > div, .support-layout > div { padding: 3rem 1rem; }
   .infra-list a { align-items: flex-start; flex-direction: column; }
   .infra-list span { text-align: left; }
+  .donation-item > div { align-items: flex-start; flex-direction: column; }
+  .donation-item span { text-align: left; }
   footer { flex-direction: column; }
   .footer-links { flex-wrap: wrap; }
   .episode-dialog { width: calc(100% - 1rem); max-height: calc(100vh - 1rem); box-shadow: 7px 7px 0 var(--signal); }

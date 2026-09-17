@@ -1,0 +1,62 @@
+[
+  {
+    "episodeId": "s1-e03",
+    "path": "assets/source-artwork/s1-e03.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a5c3cbdbe30f364854f3d1c4f"
+  },
+  {
+    "episodeId": "s1-e04",
+    "path": "assets/source-artwork/s1-e04.jpg",
+    "sourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab6765630000ba8a6b903a98de4730b42427dffe"
+  },
+  {
+    "episodeId": "s1-e05",
+    "path": "assets/source-artwork/s1-e05.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a99fb7467e4011b6124fa0d16"
+  },
+  {
+    "episodeId": "s2-e06",
+    "path": "assets/source-artwork/s2-e06.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8ad33fe43fb22911a2c7195615"
+  },
+  {
+    "episodeId": "s2-e07",
+    "path": "assets/source-artwork/s2-e07.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8aacaea0c8b342aa60e309bfa6"
+  },
+  {
+    "episodeId": "s2-e08",
+    "path": "assets/source-artwork/s2-e08.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a1f8000c08bea7433bd1f91b2"
+  },
+  {
+    "episodeId": "s2-e09",
+    "path": "assets/source-artwork/s2-e09.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a9d496da010aaa2e27b95638a"
+  },
+  {
+    "episodeId": "s2-e10",
+    "path": "assets/source-artwork/s2-e10.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a14f6f31140ffb8e66bcffdbb"
+  },
+  {
+    "episodeId": "s2-e11",
+    "path": "assets/source-artwork/s2-e11.jpg",
+    "sourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab6765630000ba8aa615bec6e8fcf51294db721e"
+  },
+  {
+    "episodeId": "s3-e01",
+    "path": "assets/source-artwork/s3-e01.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8ae0b6c0935c905d7db4bc67af"
+  },
+  {
+    "episodeId": "s3-e02",
+    "path": "assets/source-artwork/s3-e02.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8a96062a7c7157fefa5330b6d0"
+  },
+  {
+    "episodeId": "s3-e03",
+    "path": "assets/source-artwork/s3-e03.jpg",
+    "sourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6765630000ba8abe2c371ee28348097c56ba72"
+  }
+]

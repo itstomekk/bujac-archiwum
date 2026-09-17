@@ -26,6 +26,14 @@ function formatDate(date) {
     .format(new Date(`${date}T12:00:00Z`));
 }
 
+function formatDescription(description = '') {
+  return escapeHtml(description)
+    .split(/\n{2,}/)
+    .filter(Boolean)
+    .map((paragraph) => `<p>${paragraph.replaceAll('\n', '<br>')}</p>`)
+    .join('');
+}
+
 function renderEpisodes() {
   const filtered = sortEpisodes(filterEpisodes(state.episodes, state));
   grid.replaceChildren();
@@ -36,6 +44,9 @@ function renderEpisodes() {
   filtered.forEach((episode) => {
     const card = template.content.firstElementChild.cloneNode(true);
     card.dataset.episodeId = episode.id;
+    const artwork = card.querySelector('.episode-artwork');
+    artwork.src = episode.artwork ?? `assets/episodes/${episode.id}.png`;
+    artwork.alt = `Grafika odcinka: ${episode.title}`;
     card.querySelector('.episode-index').textContent = episode.number;
     card.querySelector('.episode-meta').textContent = `${seriesLabels[episode.series]} / ${formatDate(episode.date)}`;
     card.querySelector('h3').textContent = episode.title;
@@ -56,7 +67,7 @@ function renderEpisodes() {
 function sourceList(episode) {
   return episode.sources.map((source) => `
     <li>
-      <a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.label)} ↗</a>
+      <a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.type === 'wayback' ? 'Lokalny zapis źródłowy' : source.label)} ↗</a>
       ${source.note ? `<small>${escapeHtml(source.note)}</small>` : ''}
     </li>
   `).join('');
@@ -64,14 +75,9 @@ function sourceList(episode) {
 
 function playerMarkup(source, episode) {
   if (!source) {
-    return `<div class="player-consent"><p>Pełny publiczny player nie przetrwał. Został ślad źródłowy, nie udajemy że to nagranie.</p></div>`;
+    return `<div class="player-missing"><p>Pełny publiczny player nie przetrwał. Został ślad źródłowy, nie udajemy że to nagranie.</p></div>`;
   }
-  return `
-    <div class="player-consent" data-player-consent>
-      <p>Player załaduje się dopiero po kliknięciu. Wtedy ${source.type === 'spotify' ? 'Spotify' : source.type === 'youtube' ? 'YouTube' : 'zewnętrzny serwer'} może otrzymać Twój adres IP.</p>
-      <button class="button button-primary" type="button" data-load-player="${escapeHtml(episode.id)}">Załaduj player</button>
-    </div>
-  `;
+  return `<div class="player-inline" data-auto-player aria-label="Odtwarzacz ładowany inline"></div>`;
 }
 
 function embedPlayer(container, source) {
@@ -97,6 +103,7 @@ function openEpisode(episode) {
       <h2 id="dialog-title">${escapeHtml(episode.title)}</h2>
       ${guest}
       <p class="dialog-lead">${escapeHtml(episode.summary)}</p>
+      ${episode.description ? `<section class="episode-description" aria-labelledby="description-${escapeHtml(episode.id)}"><h3 id="description-${escapeHtml(episode.id)}">Pełny opis</h3>${formatDescription(episode.description)}<p class="description-source"><small>Źródło: ${episode.descriptionSourceType === 'spotify' ? `<a href="${escapeHtml(episode.descriptionSourceUrl)}" target="_blank" rel="noreferrer">Spotify ↗</a>` : 'lokalny zapis źródłowy w repozytorium'}</small></p></section>` : '<p class="description-missing"><small>Pełny opis nie zachował się w dostępnych publicznych źródłach.</small></p>'}
       ${episode.dateNote ? `<p><small>${escapeHtml(episode.dateNote)}</small></p>` : ''}
       <div class="player-shell">${playerMarkup(source, episode)}</div>
       <section class="source-ledger" aria-labelledby="sources-${escapeHtml(episode.id)}">
@@ -107,8 +114,8 @@ function openEpisode(episode) {
   `;
   dialog.showModal();
   history.replaceState(null, '', `#${episode.id}`);
-  const load = dialogContent.querySelector('[data-load-player]');
-  load?.addEventListener('click', () => embedPlayer(dialogContent.querySelector('.player-shell'), source));
+  const inlinePlayer = dialogContent.querySelector('[data-auto-player]');
+  if (inlinePlayer) embedPlayer(inlinePlayer, source);
 }
 
 function closeEpisode() {

@@ -26,6 +26,7 @@ export function filterEpisodes(episodes, { series = 'all', query = '' } = {}) {
       episode.title,
       episode.guest,
       episode.summary,
+      episode.description,
       ...(episode.topics ?? []),
     ].filter(Boolean).join(' '));
     return haystack.includes(needle);

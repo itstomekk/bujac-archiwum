@@ -1,0 +1,110 @@
+[
+  {
+    "id": "s1-e01",
+    "path": "assets/episodes/s1-e01.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s1-e02",
+    "path": "assets/episodes/s1-e02.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s1-e03",
+    "path": "assets/episodes/s1-e03.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s1-e04",
+    "path": "assets/episodes/s1-e04.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s1-e05",
+    "path": "assets/episodes/s1-e05.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s2-e06",
+    "path": "assets/episodes/s2-e06.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s2-e07",
+    "path": "assets/episodes/s2-e07.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s2-e08",
+    "path": "assets/episodes/s2-e08.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s2-e09",
+    "path": "assets/episodes/s2-e09.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s2-e10",
+    "path": "assets/episodes/s2-e10.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s2-e11",
+    "path": "assets/episodes/s2-e11.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "docinek-001",
+    "path": "assets/episodes/docinek-001.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "docinek-002",
+    "path": "assets/episodes/docinek-002.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "docinek-003",
+    "path": "assets/episodes/docinek-003.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "docinek-004",
+    "path": "assets/episodes/docinek-004.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s3-e01",
+    "path": "assets/episodes/s3-e01.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s3-e02",
+    "path": "assets/episodes/s3-e02.png",
+    "width": 1024,
+    "height": 1024
+  },
+  {
+    "id": "s3-e03",
+    "path": "assets/episodes/s3-e03.png",
+    "width": 1024,
+    "height": 1024
+  }
+]

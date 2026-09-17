@@ -22,7 +22,10 @@ Publish a framework-free first release, then migrate later. The approved visual 
   - Sezon 3 / Laissez Faire: S03E01–S03E03
 - Wayback ledger: `data/wayback-manifest.json` with all 115 successful captures returned by the uncollapsed domain CDX sweep.
 - Research originals: `research/wayback-cdx.json`, `research/castr-rss-2025-10-02.xml`, `research/spotify-episodes.json`, `research/source-notes.md`.
-- Recovered artwork: `assets/bujac-podcast.jpg`, `logo.png`, `about-img.png`, `scanner.png`, `relay-mark.png`.
+- Local full descriptions: `research/full-descriptions.json` and synchronized description fields in `data/episodes.json` (15 complete, 3 honestly missing).
+- Generated artwork: `assets/episodes/` contains 18 verified 1024×1024 PNG thumbnails; `research/generated-artwork.json` and `research/codex-generated-urls.json` record provenance.
+- Source artwork: `assets/source-artwork/` contains 12 downloaded Spotify covers with `research/source-artwork.json` provenance.
+- Recovered site artwork: `assets/bujac-podcast.jpg`, `logo.png`, `about-img.png`, `scanner.png`, `relay-mark.png`.
 - CI/deploy workflows: `.github/workflows/test.yml` and `.github/workflows/pages.yml`.
 - Design/spec/plan: `docs/design/brief.md`, `docs/superpowers/specs/2026-09-16-bujac-archive-design.md`, `docs/superpowers/plans/2026-09-16-bujac-archive.md`.
 
@@ -34,7 +37,7 @@ Run from the project root:
 node --test tests/*.test.mjs
 ```
 
-Last result: **8/8 passed, 0 failed**.
+Last result: **12/12 passed, 0 failed**.
 
 ```bash
 python scripts/audit.py
@@ -46,7 +49,9 @@ Browser QA completed on the local server at desktop and mobile widths:
 
 - 18 cards render; season filters return the expected counts (Sezon 1: 5); accent-insensitive search returns the Łukasz episode.
 - “Włącz najnowszy” opens S03E03; dialog closes with Escape and backdrop click.
-- Player iframe count is 0 before consent and 1 after “Załaduj player”.
+- Player loads inline automatically when an episode dialog opens; the index itself does not load external players.
+- Bitcoin support section exposes the public on-chain address and Lightning Address.
+- Every episode card has a local generated thumbnail; thumbnails were generated via the `image_gen` builtin through `openai-codex` and checked before import.
 - Mobile viewport 360px has `scrollWidth === 360`; keyboard focus is visible.
 - axe 4.12.1 reports **0 WCAG 2A/2AA violations** (one contrast check remains incomplete because the design uses textured gradients/pseudo-elements).
 - The page uses the logo orange `#f7941e`, rough paper/halftone treatment, shorter copy, and three recovered source graphics in the trace section.

@@ -25,6 +25,7 @@
       <a href="#o-bujac">O Bujać!</a>
       <a href="#odcinki">Odcinki</a>
       <a href="#slady">Ślady</a>
+      <a href="#wsparcie">Wesprzyj</a>
     </nav>
     <a class="signal-link" href="https://open.spotify.com/show/7JKCgH1nxriBsh6y9JlfOY" target="_blank" rel="noreferrer">Słuchaj ↗</a>
   </header>
@@ -125,6 +126,29 @@
         </div>
       </div>
     </section>
+
+    <section class="support-section" id="wsparcie" aria-labelledby="support-title">
+      <div class="section-mark" aria-hidden="true">04 / WSPARCIE</div>
+      <div class="support-layout">
+        <div>
+          <p class="kicker">DOBROWOLNIE</p>
+          <h2 id="support-title">Puść zapa.</h2>
+          <p>Jeśli ta robota ma dla Ciebie wartość, możesz wesprzeć ją bitcoinem. Bez formularzy i pośredników.</p>
+        </div>
+        <div class="donation-list">
+          <div class="donation-item">
+            <div><strong>Bitcoin / on-chain</strong><span>Strategiczna rezerwa projektu</span></div>
+            <code>bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad</code>
+            <a class="button button-primary" href="bitcoin:bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad">Otwórz portfel ↗</a>
+          </div>
+          <div class="donation-item">
+            <div><strong>Lightning Address</strong><span>Szybki zap / Wallet of Satoshi</span></div>
+            <code>bujac@walletofsatoshi.com</code>
+            <a class="button button-ghost" href="lightning:bujac@walletofsatoshi.com">Otwórz Lightning ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
@@ -146,6 +170,7 @@
 
   <template id="episode-template">
     <article class="episode-card">
+      <img class="episode-artwork" data-artwork alt="Grafika odcinka" width="1024" height="1024" loading="lazy">
       <div class="episode-index"></div>
       <div class="episode-meta"></div>
       <h3></h3>
