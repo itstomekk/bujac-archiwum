@@ -47,6 +47,22 @@ function renderEpisodes() {
     const artwork = card.querySelector('.episode-artwork');
     artwork.src = episode.artwork ?? `assets/episodes/${episode.id}.png`;
     artwork.alt = `Grafika odcinka: ${episode.title}`;
+    const artworkButton = card.querySelector('.artwork-button');
+    const cardPlayer = card.querySelector('[data-card-player]');
+    artworkButton.setAttribute('aria-label', `Odtwórz: ${episode.title}`);
+    artworkButton.addEventListener('click', () => {
+      const isOpen = !cardPlayer.hidden;
+      document.querySelectorAll('[data-card-player]:not([hidden])').forEach((player) => {
+        player.hidden = true;
+        player.replaceChildren();
+        player.closest('.episode-card')?.querySelector('.artwork-button')?.setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        cardPlayer.hidden = false;
+        artworkButton.setAttribute('aria-expanded', 'true');
+        embedPlayer(cardPlayer, getPlayableSource(episode));
+      }
+    });
     card.querySelector('.episode-index').textContent = episode.number;
     card.querySelector('.episode-meta').textContent = `${seriesLabels[episode.series]} / ${formatDate(episode.date)}`;
     card.querySelector('h3').textContent = episode.title;
@@ -81,6 +97,10 @@ function playerMarkup(source, episode) {
 }
 
 function embedPlayer(container, source) {
+  if (!source) {
+    container.innerHTML = '<p class="player-missing-copy">Pełny publiczny player nie zachował się dla tego odcinka.</p>';
+    return;
+  }
   if (source.type === 'spotify') {
     const id = source.url.split('/episode/')[1]?.split(/[?#]/)[0];
     container.innerHTML = `<iframe class="spotify-frame" title="Spotify: odtwarzacz odcinka" src="https://open.spotify.com/embed/episode/${escapeHtml(id)}?utm_source=generator" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>`;

@@ -97,3 +97,14 @@ test('episode players load inline when a dialog opens', async () => {
   assert.match(app, /data-auto-player/);
   assert.doesNotMatch(app, /data-load-player/);
 });
+
+test('episode artwork opens a compact card player and community links exist', async () => {
+  const index = await readFile(new URL('index.html', root), 'utf8');
+  const app = await readFile(new URL('app.js', root), 'utf8');
+  assert.match(index, /https:\/\/t\.me\/DwadziesciaJeden/);
+  assert.match(index, /Bitcoin FilmFest 2027/);
+  assert.match(index, /https:\/\/bitcoinwalk\.org\/warszawa\//);
+  assert.match(index, /data-card-player/);
+  assert.match(app, /cardPlayer\.hidden = false/);
+  assert.match(app, /getPlayableSource\(episode\)/);
+});

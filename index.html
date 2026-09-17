@@ -25,6 +25,7 @@
       <a href="#o-bujac">O Bujać!</a>
       <a href="#odcinki">Odcinki</a>
       <a href="#slady">Ślady</a>
+      <a href="#w-drodze">W drodze</a>
       <a href="#wsparcie">Wesprzyj</a>
     </nav>
     <a class="signal-link" href="https://open.spotify.com/show/7JKCgH1nxriBsh6y9JlfOY" target="_blank" rel="noreferrer">Słuchaj ↗</a>
@@ -127,8 +128,33 @@
       </div>
     </section>
 
+    <section class="community-section" id="w-drodze" aria-labelledby="community-title">
+      <div class="section-mark" aria-hidden="true">04 / W DRODZE</div>
+      <div class="community-layout">
+        <div>
+          <p class="kicker">POZA EKRANEM</p>
+          <h2 id="community-title">Spotkajmy się.</h2>
+          <p>Rozmowa nie kończy się na playerze. Tu są ludzie, spacery i rzeczy do zrobienia razem.</p>
+        </div>
+        <div class="community-links">
+          <a href="https://t.me/DwadziesciaJeden" target="_blank" rel="noreferrer">
+            <strong>Dwadzieścia Jeden</strong>
+            <span>polska społeczność na Telegramie ↗</span>
+          </a>
+          <a href="https://bitcoinwalk.org/warszawa/" target="_blank" rel="noreferrer">
+            <strong>Bitcoin Walk</strong>
+            <span>Warszawa / spacery i rozmowy ↗</span>
+          </a>
+          <div class="event-card">
+            <strong>Bitcoin FilmFest 2027</strong>
+            <span>24–27 czerwca / Warszawa</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="support-section" id="wsparcie" aria-labelledby="support-title">
-      <div class="section-mark" aria-hidden="true">04 / WSPARCIE</div>
+      <div class="section-mark" aria-hidden="true">05 / WSPARCIE</div>
       <div class="support-layout">
         <div>
           <p class="kicker">DOBROWOLNIE</p>
@@ -170,7 +196,11 @@
 
   <template id="episode-template">
     <article class="episode-card">
-      <img class="episode-artwork" data-artwork alt="Grafika odcinka" width="1024" height="1024" loading="lazy">
+      <button class="artwork-button" type="button" aria-label="Odtwórz odcinek z grafiki" aria-expanded="false">
+        <img class="episode-artwork" data-artwork alt="Grafika odcinka" width="1024" height="1024" loading="lazy">
+        <span class="artwork-play" aria-hidden="true">▶</span>
+      </button>
+      <div class="card-player" data-card-player hidden></div>
       <div class="episode-index"></div>
       <div class="episode-meta"></div>
       <h3></h3>

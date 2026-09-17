@@ -52,6 +52,8 @@ Browser QA completed on the local server at desktop and mobile widths:
 - Player loads inline automatically when an episode dialog opens; the index itself does not load external players.
 - Bitcoin support section exposes the public on-chain address and Lightning Address.
 - Every episode card has a local generated thumbnail; thumbnails were generated via the `image_gen` builtin through `openai-codex` and checked before import.
+- Clicking a thumbnail opens one compact inline player at the bottom of that card; clicking another thumbnail closes the previous card player.
+- “W drodze” links to the Dwadzieścia Jeden Telegram group and Warsaw Bitcoin Walks, and lists Bitcoin FilmFest 2027 (24–27 June, Warsaw).
 - Mobile viewport 360px has `scrollWidth === 360`; keyboard focus is visible.
 - axe 4.12.1 reports **0 WCAG 2A/2AA violations** (one contrast check remains incomplete because the design uses textured gradients/pseudo-elements).
 - The page uses the logo orange `#f7941e`, rough paper/halftone treatment, shorter copy, and three recovered source graphics in the trace section.
