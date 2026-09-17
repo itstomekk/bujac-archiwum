@@ -92,10 +92,32 @@ test('every episode has a local generated thumbnail', async () => {
   }
 });
 
+test('every episode has a no-text hover artwork', async () => {
+  const episodes = await loadJson('data/episodes.json');
+  const manifest = await loadJson('research/codex-generated-urls-no-text.json');
+  assert.equal(manifest.length, episodes.length);
+  assert.ok(manifest.every((entry) => entry.imageUrl.startsWith('assets/generated/no-text/')));
+  assert.ok(manifest.every((entry) => !/[A-Za-z]:[\\/]|Users[\\/]Lenovo|AppData|Documents/.test(JSON.stringify(entry))));
+  for (const episode of episodes) {
+    const image = await readFile(new URL(`assets/generated/no-text/${episode.id}.png`, root));
+    assert.deepEqual([...image.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10]);
+    assert.equal(image.readUInt32BE(16), image.readUInt32BE(20));
+    assert.ok(image.readUInt32BE(16) >= 1024);
+  }
+});
+
 test('episode players load inline when a dialog opens', async () => {
   const app = await readFile(new URL('app.js', root), 'utf8');
   assert.match(app, /data-auto-player/);
   assert.doesNotMatch(app, /data-load-player/);
+});
+
+test('episode artwork swaps to the no-text variant on hover and focus', async () => {
+  const app = await readFile(new URL('app.js', root), 'utf8');
+  assert.match(app, /assets\/generated\/no-text\/\$\{episode\.id\}\.png/);
+  assert.match(app, /card\.addEventListener\('pointerenter'/);
+  assert.match(app, /artworkButton\.addEventListener\('focus'/);
+  assert.match(app, /artwork\.addEventListener\('error'/);
 });
 
 test('episode artwork opens a compact card player and community links exist', async () => {

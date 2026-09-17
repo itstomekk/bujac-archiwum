@@ -34,6 +34,30 @@ function formatDescription(description = '') {
     .join('');
 }
 
+function bindArtworkSwap(card, artwork, artworkButton, episode) {
+  const defaultArtwork = artwork.src;
+  const hoverArtwork = `assets/generated/no-text/${episode.id}.png`;
+  let showingHoverArtwork = false;
+  artwork.dataset.hoverSrc = hoverArtwork;
+
+  const setArtwork = (showHoverArtwork) => {
+    if (showHoverArtwork === showingHoverArtwork) return;
+    showingHoverArtwork = showHoverArtwork;
+    artwork.src = showHoverArtwork ? hoverArtwork : defaultArtwork;
+  };
+
+  card.addEventListener('pointerenter', () => setArtwork(true));
+  card.addEventListener('pointerleave', () => setArtwork(false));
+  artworkButton.addEventListener('focus', () => setArtwork(true));
+  artworkButton.addEventListener('blur', () => setArtwork(false));
+  artwork.addEventListener('error', () => {
+    if (showingHoverArtwork) {
+      showingHoverArtwork = false;
+      artwork.src = defaultArtwork;
+    }
+  });
+}
+
 function renderEpisodes() {
   const filtered = sortEpisodes(filterEpisodes(state.episodes, state));
   grid.replaceChildren();
@@ -49,6 +73,7 @@ function renderEpisodes() {
     artwork.alt = `Grafika odcinka: ${episode.title}`;
     const artworkButton = card.querySelector('.artwork-button');
     const cardPlayer = card.querySelector('[data-card-player]');
+    bindArtworkSwap(card, artwork, artworkButton, episode);
     artworkButton.setAttribute('aria-label', `Odtwórz: ${episode.title}`);
     artworkButton.addEventListener('click', () => {
       const isOpen = !cardPlayer.hidden;

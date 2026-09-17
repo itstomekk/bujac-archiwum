@@ -52,6 +52,7 @@ Browser QA completed on the local server at desktop and mobile widths:
 - Player loads inline automatically when an episode dialog opens; the index itself does not load external players.
 - Bitcoin support section exposes the public on-chain address and Lightning Address.
 - Every episode card has a local generated thumbnail; thumbnails were generated via the `image_gen` builtin through `openai-codex` and checked before import.
+- Every episode also has a square `assets/generated/no-text/<id>.png` variant. Cards swap to it on pointer hover or keyboard focus and restore the primary artwork on exit; a failed hover image falls back safely.
 - Clicking a thumbnail opens one compact inline player at the bottom of that card; clicking another thumbnail closes the previous card player.
 - “W drodze” links to the Dwadzieścia Jeden Telegram group and Warsaw Bitcoin Walks, and lists Bitcoin FilmFest 2027 (24–27 June, Warsaw).
 - Mobile viewport 360px has `scrollWidth === 360`; keyboard focus is visible.
