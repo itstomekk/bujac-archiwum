@@ -228,4 +228,70 @@ async function init() {
   }
 }
 
+function renderLightningQr(container, payload) {
+  if (!container || typeof window.qrcode !== 'function') return;
+  container.replaceChildren();
+  const qr = window.qrcode(0, 'M');
+  qr.addData(payload);
+  qr.make();
+  container.innerHTML = qr.createSvgTag({ cellSize: 4, margin: 2 });
+}
+
+async function requestLightningInvoice(address, amountSats) {
+  const [name, domain] = address.split('@');
+  const lnurl = await fetch(`https://${domain}/.well-known/lnurlp/${name}`, { cache: 'no-store' });
+  if (!lnurl.ok) throw new Error(`LNURL HTTP ${lnurl.status}`);
+  const meta = await lnurl.json();
+  if (meta.status === 'ERROR') throw new Error(meta.reason ?? 'LNURL error');
+  const amountMsat = Math.round(amountSats * 1000);
+  const callbackUrl = new URL(meta.callback);
+  callbackUrl.searchParams.set('amount', String(amountMsat));
+  const invoiceResponse = await fetch(callbackUrl, { cache: 'no-store' });
+  if (!invoiceResponse.ok) throw new Error(`Callback HTTP ${invoiceResponse.status}`);
+  const invoiceData = await invoiceResponse.json();
+  if (invoiceData.status === 'ERROR' || !invoiceData.pr) throw new Error(invoiceData.reason ?? 'Brak faktury');
+  return invoiceData.pr;
+}
+
+function initLightningDonation() {
+  const lightningAddress = 'sats@bujac.pl';
+  const qrContainer = document.querySelector('#lightning-qr');
+  const weblnButton = document.querySelector('#webln-zap');
+  renderLightningQr(qrContainer, `lightning:${lightningAddress}`);
+
+  weblnButton.addEventListener('click', async () => {
+    weblnButton.disabled = true;
+    const originalLabel = weblnButton.textContent;
+    weblnButton.textContent = 'Łączenie z portfelem…';
+    try {
+      await window.webln.enable();
+      const invoice = await requestLightningInvoice(lightningAddress, 1000);
+      weblnButton.textContent = 'Potwierdź w portfelu…';
+      await window.webln.sendPayment(invoice);
+      weblnButton.textContent = 'Dzięki! Zap wysłany ⚡';
+    } catch (error) {
+      console.error(error);
+      weblnButton.textContent = 'Nie udało się. Spróbuj portfela ↗';
+    } finally {
+      weblnButton.disabled = false;
+      setTimeout(() => {
+        weblnButton.textContent = originalLabel;
+      }, 4000);
+    }
+  });
+
+  const revealIfAvailable = () => {
+    if (!window.webln || !weblnButton.hidden) return false;
+    weblnButton.hidden = false;
+    return true;
+  };
+  if (revealIfAvailable()) return;
+  let attempts = 0;
+  const pollId = setInterval(() => {
+    attempts += 1;
+    if (revealIfAvailable() || attempts >= 10) clearInterval(pollId);
+  }, 300);
+}
+
 init();
+initLightningDonation();

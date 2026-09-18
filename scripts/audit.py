@@ -36,7 +36,7 @@ class SiteParser(HTMLParser):
             self.images_without_alt.append(values.get("src") or "<missing src>")
         for name in ("href", "src"):
             value = values.get(name)
-            if value and not value.startswith(("http://", "https://", "mailto:", "bitcoin:", "lightning:", "#", "data:")):
+            if value and not value.startswith(("http://", "https://", "mailto:", "bitcoin:", "lightning:", "nostr:", "#", "data:")):
                 self.local_refs.append(value.split("?", 1)[0].split("#", 1)[0])
 
 

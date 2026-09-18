@@ -75,7 +75,15 @@ test('full descriptions are local, sourced, and synchronized', async () => {
 test('Bitcoin support details are visible in the page', async () => {
   const index = await readFile(new URL('index.html', root), 'utf8');
   assert.match(index, /bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad/);
-  assert.match(index, /bujac@walletofsatoshi\.com/);
+  assert.match(index, /sats@bujac\.pl/);
+  assert.match(index, /lightning-qr/);
+  assert.match(index, /webln-zap/);
+});
+
+test('footer links to the GitHub repo and Nostr profile', async () => {
+  const index = await readFile(new URL('index.html', root), 'utf8');
+  assert.match(index, /https:\/\/github\.com\/itstomekk\/bujac-archiwum/);
+  assert.match(index, /nostr:npub1adsudqw8jge35ff5g8vc7q6xqugpza3cxmaqm6fgk4uv0nd50gms4hn7pf/);
 });
 
 test('every episode has a local generated thumbnail', async () => {

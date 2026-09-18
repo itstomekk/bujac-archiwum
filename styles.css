@@ -460,6 +460,11 @@ blockquote {
 .donation-item span { color: var(--signal-light); font-size: .75rem; text-align: right; }
 .donation-item code { display: block; overflow-wrap: anywhere; color: var(--paper); font: .82rem/1.35 ui-monospace, monospace; }
 .donation-item .button { justify-self: start; }
+.donation-item-lightning { gap: .6rem; }
+.lightning-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.lightning-qr { width: 168px; max-width: 100%; padding: .6rem; background: var(--paper); border: 1px solid var(--paper); }
+.lightning-qr svg { display: block; width: 100%; height: auto; }
+.lightning-note { max-width: 420px; color: var(--signal-light); font-size: .78rem; }
 
 .community-section {
   position: relative;

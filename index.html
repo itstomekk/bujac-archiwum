@@ -12,6 +12,7 @@
   <title>Bujać! — niezależne rozmowy</title>
   <link rel="icon" href="assets/logo.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="js/vendor/qrcode.js" defer></script>
   <script type="module" src="app.js"></script>
 </head>
 <body>
@@ -167,10 +168,15 @@
             <code>bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad</code>
             <a class="button button-primary" href="bitcoin:bc1q8m269ngu09zt4cg2menjts9vprpf2hf69wddad">Otwórz portfel ↗</a>
           </div>
-          <div class="donation-item">
-            <div><strong>Lightning Address</strong><span>Szybki zap / Wallet of Satoshi</span></div>
-            <code>bujac@walletofsatoshi.com</code>
-            <a class="button button-ghost" href="lightning:bujac@walletofsatoshi.com">Otwórz Lightning ↗</a>
+          <div class="donation-item donation-item-lightning" id="lightning-donation">
+            <div><strong>Lightning Address</strong><span>Zap w sekundę</span></div>
+            <code>sats@bujac.pl</code>
+            <div class="lightning-actions">
+              <a class="button button-ghost" id="lightning-open" href="lightning:sats@bujac.pl">Otwórz portfel ↗</a>
+              <button class="button button-ghost" type="button" id="webln-zap" hidden>Zapłać przez WebLN ⚡</button>
+            </div>
+            <div class="lightning-qr" id="lightning-qr" aria-label="Kod QR do zapłaty Lightning na sats@bujac.pl"></div>
+            <p class="lightning-note">Skanuj kodem QR albo kliknij, by otworzyć portfel Lightning. Jeśli masz rozszerzenie WebLN (Alby itp.), zapłacisz jednym kliknięciem.</p>
           </div>
         </div>
       </div>
@@ -184,10 +190,12 @@
     </div>
     <div class="footer-links">
       <a href="https://open.spotify.com/show/7JKCgH1nxriBsh6y9JlfOY" target="_blank" rel="noreferrer">Spotify</a>
+      <a href="https://github.com/itstomekk/bujac-archiwum" target="_blank" rel="noreferrer">GitHub ↗</a>
+      <a href="nostr:npub1adsudqw8jge35ff5g8vc7q6xqugpza3cxmaqm6fgk4uv0nd50gms4hn7pf" target="_blank" rel="noreferrer">Nostr ↗</a>
       <a href="po-co-to-jest.html">Pełny tekst</a>
       <a href="#top">Do góry ↑</a>
     </div>
-  </footer>
+    </footer>
 
   <dialog id="episode-dialog" class="episode-dialog" aria-labelledby="dialog-title">
     <button class="dialog-close" type="button" data-close-dialog aria-label="Zamknij odcinek">×</button>
