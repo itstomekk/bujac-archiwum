@@ -1,50 +1,98 @@
-# Bujać! — odcinki i rozmowy
+<div align="center">
 
-A framework-free public listening page for the Polish Bitcoin podcast **Bujać!**.
+# Bujać! 🎙️
 
-## Local preview
+**Niezależne polskie rozmowy o Bitcoinie, Nostrze i budowaniu poza systemem**
+
+Publiczne archiwum odcinków podcastu: wszystkie rozmowy w jednym miejscu, z opisami i miniaturami. 🟠
+
+[🌐 Strona archiwum](https://itstomekk.github.io/bujac-archiwum/) · [📜 Po co to jest?](https://itstomekk.github.io/bujac-archiwum/po-co-to-jest.html) · [🎧 Spotify](https://open.spotify.com/show/7JKCgH1nxriBsh6y9JlfOY) · [🟣 Nostr](https://primal.net/p/npub1adsudqw8jge35ff5g8vc7q6xqugpza3cxmaqm6fgk4uv0nd50gms4hn7pf) · [💬 Telegram](https://t.me/DwadziesciaJeden) · [🐛 Zgłoś błąd](https://github.com/itstomekk/bujac-archiwum/issues/new)
+
+<br>
+
+<a href="https://itstomekk.github.io/bujac-archiwum/"><img src=".github/readme/home.jpg" alt="Strona główna archiwum Bujać!" width="820"></a>
+
+</div>
+
+---
+
+## 👋 Cześć!
+
+**Bujać!** to polski podcast o pieniądzu, wolności i budowaniu poza systemem. Rozmawia po polsku o Bitcoinie, Nostrze, prywatności i własnych drogach komunikacji. Hasło programowe: *bo nikt nam nie może zabronić*.
+
+To repozytorium to kod publicznego archiwum odcinków. Odtworzyliśmy je z kopii w Wayback Machine, publicznego RSS i stron Spotify, żeby wszystkie rozmowy dało się znaleźć w jednym miejscu: po sezonie, tytule, gościu i temacie. 🧡
+
+## 🎧 Co tu znajdziesz
+
+- 🎙️ **18 pozycji**, każda z opisem i miniaturą, a tam gdzie nagranie się zachowało, także z odtwarzaczem:
+  - Sezon 1: 5 rozmów,
+  - Sezon 2: 6 rozmów,
+  - Docinki Niefiducjarne: 4 krótkie odcinki,
+  - Sezon 3 (Laissez Faire): 3 rozmowy.
+- 🔎 Wyszukiwarkę, która nie zwraca uwagi na polskie znaki, i filtry sezonów.
+- 📜 Pełny tekst manifestu [„Po Co To Jest?”](https://itstomekk.github.io/bujac-archiwum/po-co-to-jest.html).
+- 🧭 Ślady: skąd odcinki wzięły się w RSS, na Nostrze i na serwerach plików.
+
+Strona jest statyczna, bez frameworka i bez trackerów. Odtwarzacz ładuje się dopiero po otwarciu odcinka.
+
+## 🚧 Na jakim etapie jesteśmy
+
+**Archiwum działa** i jest opublikowane na GitHub Pages. Pierwszy etap, czyli odzyskanie, budowa i publikacja, jest skończony.
+
+**Planowane, jeszcze nie zrobione:**
+
+- przeniesienie strony na framework (Astro albo Jekyll, decyzja jeszcze nie zapadła), bez zmiany adresów i identyfikatorów odcinków,
+- transkrypcje, jeśli pojawią się publicznie,
+- podpięcie domeny bujac.pl, jeśli jej właściciel będzie tego chciał.
+
+## 🕳️ Czego nie wiemy
+
+Niczego nie dopisujemy, żeby zakleić dziury:
+
+- trzy docinki (#001-#003) przetrwały tylko jako wzmianki na stronie głównej, więc nie mają pełnego opisu,
+- oryginalna data odcinka S2E10 się nie zachowała, więc strona pokazuje późniejszą datę ze Spotify i mówi o tym wprost,
+- część plików z nagraniami nie przetrwała i jest oznaczona jako niedostępna do odtworzenia.
+
+## 🤝 Chcesz pomóc?
+
+Najbardziej przydadzą się ludzie, którzy te rozmowy znają:
+
+- 🔍 **Poprawki:** zły tytuł, data, gość, literówka, martwy link.
+- 🧩 **Brakujące kawałki:** pełne opisy docinków #001-#003, oryginalna data S2E10, publiczne kopie plików z nagraniami.
+- 📝 **Transkrypcje**, jeśli masz prawo je udostępnić.
+- 🛠️ **Kod:** pull requesty są mile widziane, a [DEVELOPMENT.md](DEVELOPMENT.md) mówi, jak uruchomić stronę i testy.
+
+Otwórz [issue](https://github.com/itstomekk/bujac-archiwum/issues/new) z linkiem do źródła albo wpadnij na [czat Dwadzieścia Jeden](https://t.me/DwadziesciaJeden). Zasada jest jedna: opieramy się na źródłach, które da się sprawdzić.
+
+## 🎨 Grafiki i prawa
+
+Miniatury odcinków na stronie to grafiki wygenerowane przez AI. Pobrane publiczne okładki ze Spotify leżą w `assets/source-artwork/` razem z opisem pochodzenia. W repozytorium nie ma pliku LICENSE, więc nie nadajemy żadnej licencji na teksty i nagrania. Prawa do nich mają ich autorzy.
+
+## 🛠️ Dla programistów
 
 ```bash
 python -m http.server 4173
-```
-
-Then open `http://localhost:4173`.
-
-## Tests
-
-```bash
 node --test tests/*.test.mjs
 python scripts/audit.py
 ```
 
-## Structure
+Struktura katalogów, katalog odcinków w `data/episodes.json` i reszta: [DEVELOPMENT.md](DEVELOPMENT.md).
 
-- `data/episodes.json` - normalized episode catalog
-- `data/wayback-manifest.json` - capture ledger and provenance
-- `research/full-descriptions.json` - verified full descriptions and source metadata
-- `research/source-artwork.json` - downloaded Spotify artwork provenance
-- `assets/source-artwork/` - local copies of public Spotify artwork
-- `assets/episodes/` - generated episode thumbnails (imported only as a complete 18/18 batch)
-- `content/po-co-to-jest.md` - full transferred source text
-- `po-co-to-jest.html` - local full-text page
-- `research/` - source inventory and recovery notes
-- `js/archive.mjs` - testable filtering and source selection
-- `index.html`, `styles.css`, `app.js` - production site
+---
 
-Episode descriptions are served from the local catalog. Fifteen complete
-descriptions were verified against public RSS/Spotify metadata; three docinki
-have no complete public description and are marked honestly in the dialog.
-Large public MP4 files are used only as image-generation references when they
-can be read, not copied into the repository.
+<details>
+<summary>🇬🇧 In English</summary>
 
-## Repository and deployment
+**Bujać!** is an independent Polish podcast about Bitcoin, Nostr, privacy and building outside the system. This repo is the source of a public, static, framework-free archive of its episodes, rebuilt from Wayback Machine captures, the public RSS feed and Spotify metadata: [itstomekk.github.io/bujac-archiwum](https://itstomekk.github.io/bujac-archiwum/).
 
-The source repository is public:
+It is live on GitHub Pages and lists 18 items (Season 1: 5, Season 2: 6, four short "Docinki Niefiducjarne", Season 3: 3) with descriptions, thumbnails (AI-generated), search and an inline player where a recording survives. Gaps are labelled, not filled in: three Docinki have no full public description, the original date of S2E10 did not survive, and some media files are gone. A move to a framework (Astro or Jekyll) is planned but not started.
 
-`https://github.com/itstomekk/bujac-archiwum`
+Spotted a mistake or have a source for a missing piece? [Open an issue](https://github.com/itstomekk/bujac-archiwum/issues/new). No LICENSE file is present and no license is asserted over the texts and recordings. Build notes: [DEVELOPMENT.md](DEVELOPMENT.md).
 
-The live site is deployed with GitHub Pages:
+</details>
 
-`https://itstomekk.github.io/bujac-archiwum/`
+<div align="center">
 
-Pages uses the GitHub Actions workflow with HTTPS enforced.
+**Internet należy do nas.** ⚡
+
+</div>
