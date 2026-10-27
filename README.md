@@ -66,7 +66,11 @@ Otwórz [issue](https://github.com/itstomekk/bujac-archiwum/issues/new) z linkie
 
 ## 🎨 Grafiki i prawa
 
-Miniatury odcinków na stronie to grafiki wygenerowane przez AI. Pobrane publiczne okładki ze Spotify leżą w `assets/source-artwork/` razem z opisem pochodzenia. W repozytorium nie ma pliku LICENSE, więc nie nadajemy żadnej licencji na teksty i nagrania. Prawa do nich mają ich autorzy.
+Miniatury odcinków na stronie to grafiki wygenerowane przez AI. Pobrane publiczne okładki ze Spotify leżą w `assets/source-artwork/` razem z opisem pochodzenia.
+
+**Kod** strony, skryptów i testów jest na licencji [MIT](LICENSE).
+
+**Poza licencją zostają** teksty, opisy i nagrania odcinków, nazwa i logo podcastu oraz okładki ze Spotify. Prawa do nich mają ich twórcy. Miniatur odcinków też nie licencjonujemy: powstały z użyciem logo i okładki podcastu jako wzorca oraz z tytułów odcinków.
 
 ## 🛠️ Dla programistów
 
@@ -87,7 +91,7 @@ Struktura katalogów, katalog odcinków w `data/episodes.json` i reszta: [DEVELO
 
 It is live on GitHub Pages and lists 18 items (Season 1: 5, Season 2: 6, four short "Docinki Niefiducjarne", Season 3: 3) with descriptions, thumbnails (AI-generated), search and an inline player where a recording survives. Gaps are labelled, not filled in: three Docinki have no full public description, the original date of S2E10 did not survive, and some media files are gone. A move to a framework (Astro or Jekyll) is planned but not started.
 
-Spotted a mistake or have a source for a missing piece? [Open an issue](https://github.com/itstomekk/bujac-archiwum/issues/new). No LICENSE file is present and no license is asserted over the texts and recordings. Build notes: [DEVELOPMENT.md](DEVELOPMENT.md).
+Spotted a mistake or have a source for a missing piece? [Open an issue](https://github.com/itstomekk/bujac-archiwum/issues/new). The code is MIT licensed ([LICENSE](LICENSE)); no license is asserted over the texts, recordings, podcast name and artwork, or episode thumbnails. Build notes: [DEVELOPMENT.md](DEVELOPMENT.md).
 
 </details>
 
